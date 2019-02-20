@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body onload="startGame()">
+	<script>
+		function startGame() {
+		    myGameArea.start();
+		    myGamePiece = new component(200, 150, "", 5, 10);
+		}
+
+		var myGameArea = {
+		    canvas : document.createElement("canvas"),
+		    start : function() {
+		        this.canvas.width = 700;
+		        this.canvas.height = 400;
+		        this.canvas.setAttribute("id","myCanvas");
+		        this.context = this.canvas.getContext("2d");
+				var img=document.createElement('img');
+				img.setAttribute("name","mydice");
+				img.setAttribute("id","mydiceimg");
+				img.src='images/d1.gif';
+				img.onload = function () {
+					this.canvas = document.getElementById('myCanvas');
+					var ctx=canvas.getContext('2d');
+					ctx.drawImage(img, 290, 120, 64, 63);
+				}
+		        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+		    }
+		}
+		
+
+		function component(width, height, color, x, y) {
+		    this.width = width;
+		    this.height = height;
+		    this.x = x;
+		    this.y = y;
+		    ctx = myGameArea.context;
+		    canvas = myGameArea.canvas;
+
+			// ctx.fillStyle = "#009900";
+			// ctx.fillRect(0,0, 200,100);
+			// ctx.strokeStyle = "#0000ff";
+			// ctx.lineWidth = 5;
+			// ctx.beginPath();
+			// ctx.fillStyle = "green";
+			// ctx.moveTo(100, 100);
+			// ctx.lineTo(100, 300);
+			// ctx.lineTo(200, 200);
+
+			ctx.fillStyle='green';
+		    ctx.fillRect(this.x, this.y, this.width, this.height);	
+			// ctx.fillRect(rectXPos, rectYPos, rectWidth, rectHeight);
+
+
+
+			// Draw Diagnal Line
+			/*alert(x);
+			alert(y);*/
+
+			// ctx.moveTo(x, y);
+			// ctx.lineTo(205, 160);
+			// ctx.stroke();
+  			ctx.save();
+   		    ctxLine = myGameArea.context;
+			ctxLine.moveTo(x, y);
+			ctxLine.lineTo(205, 160);
+			ctxLine.moveTo(5, 25);
+			ctxLine.lineTo(185, 160);
+			ctxLine.stroke();
+			var gradient=ctxLine.createLinearGradient(0,0,canvas.width,0);
+			gradient.addColorStop("0","magenta");
+			gradient.addColorStop("0.5","blue");
+			gradient.addColorStop("1.0","red");
+			ctxLine.strokeStyle="yellow";
+			// ctxLine.rotate(0.40);
+			ctxLine.strokeText("Lucky 7",100,100);
+
+      		// Generating Random Number
+      		var rnum = Math.floor((Math.random() * 12) + 1);
+
+      		ctx.lineWidth = 1;
+		    ctx.strokeStyle = 'black';
+      		
+      		// ctx.font = '25pt calibri';
+		    // ctx.strokeText(rnum, 130, 80);
+		    // ctx.strokeText(rnum, 30, 115);
+
+		    ctx.fillRect = "red";
+		    ctx.font = '15pt calibri';
+		    ctx.strokeText('7 UP', 120, 70);
+		    ctx.strokeText('7 DOWN', 35, 140);
+		    ctx.strokeText('Last Five Numbers :', 230, 30);
+		    
+		    var k = 30;
+		    for (var i = 1; i < 6; i++) {
+		    	ctx.strokeText(i, 450, k);
+		    	k+=25;
+		    }
+
+		    ctx.strokeRect(280,100,150,100);
+
+
+
+		    //Make 1st Dies
+		    // makeDies1(270,120,40,20);
+		    // makeDies2(270,160,40,20);
+
+		    /*var imageObj = new Image();
+		    imageObj.onload = function() {
+		        ctx.drawImage(imageObj, 69, 50);
+		    };
+		    imageObj.src = 'http://192.168.1.12/dicegame/images/1.png';*/
+
+			// Bet Amount Area
+			ctx.strokeRect(5,240,450,100);
+			ctx.font = '15pt calibri';
+			ctx.strokeText('Bet Amount List :', 15, 270);
+
+			var k=5; xi=40; xt=34;
+			for (var i = 0; i < 10; i++) {
+				ctx.beginPath();
+				ctx.arc(xi, 295, 5, 0, 2 * Math.PI);
+				ctx.stroke();
+				ctx.strokeText(k, xt, 323);
+				k+=5; xi+=40; xt+=40;
+			}
+			//      END
+
+			// Make Button
+			ctx.strokeRect(370,140,50,25);
+			ctx.font = '10pt calibri';
+			ctx.strokeText('PLAY', 380, 157);
+
+
+			//The rectangle should have x,y,width,height properties
+			var rect = {
+			    x:380,
+			    y:157,
+			    width:50,
+			    height:25
+			};
+			//Binding the click event on the canvas
+			canvas.addEventListener('click', function(evt) {
+			    var mousePos = getMousePos(canvas, evt);
+
+			    if (isInside(mousePos,rect)) {
+			        alert('clicked on Play Button');
+			    }   
+			}, false);
+		}
+
+		//Function to get the mouse position
+		function getMousePos(canvas, event) {
+		    var rect = canvas.getBoundingClientRect();
+
+		    return {
+		        x: event.clientX - rect.left,
+		        y: event.clientY - rect.top
+		    };
+		}
+		//Function to check whether a point is inside a rectangle
+		function isInside(pos, rect){
+		    return pos.x > rect.x && pos.x < rect.x+rect.width && pos.y < rect.y+rect.height && pos.y > rect.y
+		}
+
+		/*
+JavaScript dice (by JavaScript Kit, http://javascriptkit.com)
+Over 200+ free scripts here!
+*/
+
+//preload the six images first
+var face0=new Image()
+face0.src="images/d1.gif"
+var face1=new Image()
+face1.src="images/d2.gif"
+var face2=new Image()
+face2.src="images/d3.gif"
+var face3=new Image()
+face3.src="images/d4.gif"
+var face4=new Image()
+face4.src="images/d5.gif"
+var face5=new Image()
+face5.src="images/d6.gif"
+
+// function throwdice(){
+// //create a random integer between 0 and 5
+// var randomdice=Math.round(Math.random()*5)
+// document.images["mydice"].src=("face"+randomdice+".src")
+// }
+function throwdice(){
+//create a random integer between 0 and 5
+var randomdice=Math.round(Math.random()*5);
+document.images["mydice"].src=eval("face"+randomdice+".src");
+// document.getElementById("mydiceimg").src=eval("face"+randomdice+".src");
+
+}
+	</script>
+	<img src="images/d1.gif" name="mydice" id="mydiceimg">
+	<input type="button" value="Throw dice!" onClick="throwdice()">
+</body>
+</html>
