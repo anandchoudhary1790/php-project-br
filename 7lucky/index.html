@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+
+<body>
+<script type="text/javascript">
+  // Dice Roll
+
+var winCount        = 0;
+var lossCount       = 0;
+var gameCount       = 0;
+var thePoint        = 0;
+
+// var cash         = 100;
+// var betInput     = document.getElementById('betField').value;
+// var bet          = parseInt(betInput);
+window.onload=function(){
+var elDiceOne       = document.getElementById('dice1');
+var elDiceTwo       = document.getElementById('dice2');
+var elComeOut       = document.getElementById('comeOutButton');
+var elPointRoll     = document.getElementById('pointRollButton');
+var elWinOrLoss     = document.getElementById('winOrLoss');
+var elCrapsWins     = document.getElementById('crapWins');
+var elCrapsLosses   = document.getElementById('crapLosses');
+
+elComeOut.onclick   = function () {comeOutRoll();};
+
+elPointRoll.onclick = function () {pointRoll();};
+
+
+// Come Out Roll Function
+function comeOutRoll() {
+
+  // Initial dice variables
+  var diceOne   = Math.floor((Math.random() * 6) + 1);
+  var diceTwo   = Math.floor((Math.random() * 6) + 1);
+  var rollTotal = diceOne + diceTwo;
+
+  console.log(rollTotal + ' ' + diceOne + ' ' + diceTwo);
+  elDiceOne.classList.toggle('animate');
+  elDiceTwo.classList.toggle('animate');
+
+  //Dice reset and display
+  for (var i = 1; i <= 6; i++) {
+    elDiceOne.classList.remove('show-' + i);
+    if (diceOne === i) {
+      elDiceOne.classList.add('show-' + i);
+    }
+  }
+
+  for (var k = 1; k <= 6; k++) {
+    elDiceTwo.classList.remove('show-' + k);
+    if (diceTwo === k) {
+      elDiceTwo.classList.add('show-' + k);
+    }
+  }
+
+  // if rollTotal = 7 or 11; Player wins
+  if (rollTotal === 7 || rollTotal === 11) {
+    console.log('You won!');
+    winCount++;
+    gameCount++;
+    elWinOrLoss.innerHTML = 'You Won!';
+
+    // cash += betField;
+  } else if (rollTotal === 2 || rollTotal === 3 || rollTotal === 12) {
+    console.log('You lost!');
+    lossCount++;
+    gameCount++;
+    elWinOrLoss.innerHTML = 'LOSER!';
+
+    // cash -= betField;
+  } else {
+    // sets the point and changes button display
+    thePoint = rollTotal;
+    elWinOrLoss.innerHTML = 'Roll the Point!';
+
+    //  sets value for the point and changes the button displayed
+    document.getElementById('theRoll').innerHTML = 'Roll a ' + thePoint + ' to win';
+    elComeOut.style.display = 'none';
+    elPointRoll.style.display = 'block';
+  }
+
+  setTimeout(winLossCount(), 1500);
+}// END Come out roll function
+
+//POINT ROLL FUNCTION
+function pointRoll() {
+
+  // sets dice variables
+  var diceOne   = Math.floor((Math.random() * 6) + 1);
+  var diceTwo   = Math.floor((Math.random() * 6) + 1);
+  var rollTotal = diceOne + diceTwo;
+
+  //Dice reset and display
+
+  for (var i = 1; i <= 6; i++) {
+    elDiceOne.classList.remove('show-' + i);
+    if (diceOne === i) {
+      elDiceOne.classList.add('show-' + i);
+    }
+  }
+
+  for (var k = 1; k <= 6; k++) {
+    elDiceTwo.classList.remove('show-' + k);
+    if (diceTwo === k) {
+      elDiceTwo.classList.add('show-' + k);
+    }
+  }
+
+  // if player rolls a 7, player loses
+  if (rollTotal === 7) {
+    console.log('LOSER');
+    thePoint = 0;
+    lossCount++;
+    gameCount++;
+    elWinOrLoss.innerHTML = 'Loser!';
+
+    // cash -= betField;
+    elComeOut.style.display = 'block';
+    elPointRoll.style.display = 'none';
+
+  } else if (rollTotal === thePoint) {
+    // If player rolls the point; player wins
+
+    console.log('you won!');
+    winCount++; // updates win count
+    gameCount++;
+    elWinOrLoss.innerHTML = 'You Won!';
+
+    // cash += betField;
+    thePoint = 0;// resests the point
+
+    // Resets buttons
+    elComeOut.style.display   = 'block';
+    elPointRoll.style.display = 'none';
+
+  } else {
+    // Roll again if no winner
+
+    console.log('roll again');
+  }
+
+  setTimeout(winLossCount(), 1500);
+} // END POINT ROLL FUNCTION
+
+function winLossCount() {
+  // Update win and loss count
+  elCrapsLosses.innerHTML = 'Losses: ' + lossCount;
+  elCrapsWins.innerHTML   = 'Wins: ' + winCount;
+
+  // document.getElementById('score').innerHTML = 'CASH:' + cash;
+}
+}
+
+</script>
+  <div class="modal-overlay"></div>
+  <div class="modal">
+
+    <header class="modal-header">
+      <h3>Rules</h3>
+    </header>
+    <content class="modal-content">
+      <ol>
+        <li>Game starts with a 'Come Out Roll'</li>
+          <ul>
+            <li>If you roll a 7 or 11 you win</li>
+            <li>If you roll a 2, 3 or 12 you lose</li>
+            <li>Roll anything else and it becomes 'The Point'</li>
+          </ul>
+        <li>'The Point Roll'</li>
+          <ul>
+            <li>If you roll 'The Point' you win</li>
+            <li>If you roll a 7 you lose</li>
+            <li>Roll anything else and you roll again</li>
+          </ul>
+      </ol>
+    </content>
+  </div>  <!-- END MODAL HEADER -->
+
+
+  <header>
+    <h1>Oh, Craps!</h1>
+    <nav>
+      <ul>
+        <li id='btn-rules'>rules</li>
+        <li id='btn-bets'>bets</li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <h2 id='winOrLoss'></h2>
+
+  <button id='comeOutButton' class='roll-button'>Come Out ROLL</button>
+  <button id='pointRollButton' class='roll-button'>POINT ROLL</button>
+
+
+  <h2 id="theRoll"></h2>
+
+
+  <ul>
+    <li id='crapWins'>Wins: 0</li>
+    <li id="crapLosses">Losses: 0</li>
+  </ul>
+
+  <div class="dice-board">
+
+
+    <div class="container-dice">
+
+
+      <div id='dice1' class="dice dice-one">
+        <div id="dice-one-side-one" class='side one'>
+          <div class="divot one-1"></div>
+        </div>
+        <div id="dice-one-side-two" class='side two'>
+          <div class="divot two-1"></div>
+          <div class="divot two-2"></div>
+        </div>
+        <div id="dice-one-side-three" class='side three'>
+          <div class="divot three-1"></div>
+          <div class="divot three-2"></div>
+          <div class="divot three-3"></div>
+        </div>
+        <div id="dice-one-side-four" class='side four'>
+          <div class="divot four-1"></div>
+          <div class="divot four-2"></div>
+          <div class="divot four-3"></div>
+          <div class="divot four-4"></div>
+        </div>
+        <div id="dice-one-side-five" class='side five'>
+          <div class="divot five-1"></div>
+          <div class="divot five-2"></div>
+          <div class="divot five-3"></div>
+          <div class="divot five-4"></div>
+          <div class="divot five-5"></div>
+        </div>
+        <div id="dice-one-side-six" class='side six'>
+          <div class="divot six-1"></div>
+          <div class="divot six-2"></div>
+          <div class="divot six-3"></div>
+          <div class="divot six-4"></div>
+          <div class="divot six-5"></div>
+          <div class="divot six-6"></div>
+        </div>
+      </div>
+
+
+    </div> <!-- END container-dice -->
+
+
+    <div class="container-dice">
+
+
+      <div id='dice2' class="dice dice-two">
+        <div id="dice-two-side-one" class='side one'>
+          <div class="divot one-1"></div>
+        </div>
+        <div id="dice-two-side-two" class='side two'>
+          <div class="divot two-1"></div>
+          <div class="divot two-2"></div>
+        </div>
+        <div id="dice-two-side-three" class='side three'>
+          <div class="divot three-1"></div>
+          <div class="divot three-2"></div>
+          <div class="divot three-3"></div>
+        </div>
+        <div id="dice-two-side-four" class='side four'>
+          <div class="divot four-1"></div>
+          <div class="divot four-2"></div>
+          <div class="divot four-3"></div>
+          <div class="divot four-4"></div>
+        </div>
+        <div id="dice-two-side-five" class='side five'>
+          <div class="divot five-1"></div>
+          <div class="divot five-2"></div>
+          <div class="divot five-3"></div>
+          <div class="divot five-4"></div>
+          <div class="divot five-5"></div>
+        </div>
+        <div id="dice-two-side-six" class='side six'>
+          <div class="divot six-1"></div>
+          <div class="divot six-2"></div>
+          <div class="divot six-3"></div>
+          <div class="divot six-4"></div>
+          <div class="divot six-5"></div>
+          <div class="divot six-6"></div>
+        </div>
+      </div>
+
+
+      </div>  <!-- END container-dice 2 -->
+
+
+  </div> <!-- END dice-board -->
+</body>
+</html>
+
+<style type="text/css">
+  html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #297A4A;
+  perspective: 1000px;
+  color: #ffffcc; }
+
+#pointRollButton {
+  display: none; }
+
+#winOrLoss {
+  text-align: center; }
+
+/* MODAL THINGS*/
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(170, 133, 57, 0.7);
+  z-index: 9998;
+  color: #ffffcc; }
+
+.modal-overlay,
+.modal {
+  visibility: hidden;
+  opacity: 0; }
+
+/* HEADER */
+header {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; }
+  header h1 {
+    float: left; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+nav li {
+  float: right;
+  margin: 15px;
+  padding: 10px 50px;
+  background: #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 3px #999;
+  transition: .3s;
+  text-transform: uppercase; }
+
+nav li:hover {
+  background: #999;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 11px 50px 9px 50px; }
+
+/* BUTTONS */
+.roll-button {
+  margin: 15px auto; }
+
+button {
+  padding: 10px 50px;
+  color: #ffffcc;
+  background: #AA4F39;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px #802915;
+  outline: none;
+  transition: .3s; }
+
+button:hover, button:active {
+  outline: none;
+  background: #802915;
+  cursor: pointer;
+  padding: 11px 50px 9px 50px;
+  margin-top: 15px; }
+
+.dice-board {
+  width: 100%;
+  height: 50%; }
+
+/*########## DICE THINGS ###########*/
+.container-dice {
+  display: inline-block;
+  margin-top: 100px;
+  width: 300px;
+  margin: 50px auto 0 auto; }
+
+.dice {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: transform 1s; }
+
+.divot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  border-radius: 20px;
+  background: #000; }
+
+.dice-one {
+  margin-left: 150px; }
+
+.dice-two {
+  margin-left: 150px; }
+
+.side {
+  background-color: rgba(255, 255, 204, 0.97);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black; }
+
+.side:nth-child(1) {
+  transform: translateZ(100px); }
+
+.side:nth-child(6) {
+  transform: rotateY(180deg) translateZ(100px); }
+
+.side:nth-child(3) {
+  transform: rotateY(90deg) translateZ(100px); }
+
+.side:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(100px); }
+
+.side:nth-child(5) {
+  transform: rotateX(90deg) translateZ(100px); }
+
+.side:nth-child(2) {
+  transform: rotateX(-90deg) translateZ(100px); }
+
+.show-1 {
+  transform: rotateX(720deg) rotateZ(-720deg); }
+
+.show-6 {
+  transform: rotateX(-900deg) rotateZ(1080deg); }
+
+.show-3 {
+  transform: rotateY(-450deg) rotateZ(-1440deg); }
+
+.show-4 {
+  transform: rotateY(810deg) rotateZ(720deg); }
+
+.show-5 {
+  transform: rotateX(-810deg) rotateZ(-1080deg); }
+
+.show-2 {
+  transform: rotateX(450deg) rotateZ(-720deg); }
+
+/* Dice Dots */
+.two-1, .three-1, .four-1, .five-1, .six-1 {
+  top: 20%;
+  left: 20%; }
+
+.four-3, .five-3, .six-4 {
+  top: 20%;
+  left: 80%; }
+
+.one-1, .three-2, .five-5 {
+  top: 50%;
+  left: 50%; }
+
+.four-2, .five-2, .six-3 {
+  top: 80%;
+  left: 20%; }
+
+.two-2, .three-3, .four-4, .five-4, .six-6 {
+  top: 80%;
+  left: 80%; }
+
+.six-2 {
+  top: 50%;
+  left: 20%; }
+
+.six-5 {
+  top: 50%;
+  left: 80%; }
+
+/* CLEARFIX */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+</style>
