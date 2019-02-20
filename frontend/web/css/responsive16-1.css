@@ -1,0 +1,1874 @@
+@media screen and (max-width:1366px) {
+	
+	.inputbar input {
+		width: 330px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		font-size: 14px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link i img {
+		width: 15px;
+		margin-right: 5px;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		top: 66px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		padding: 22px 5px 20px;
+	}
+	#sidebar-wrapper {
+		top: 64px;
+	}
+	.appointment_details {
+		margin: 0;
+	}
+	.navbar-dark .navbar-toggler {
+		color: rgba(255,255,255,.5);
+		border-color: transparent;
+	}
+	body.patient_body #sidebar-wrapper {
+	    top: 68px;
+	}
+	p {
+	    font-size: 12px;
+	}
+	
+}
+@media screen and (max-width:1100px) {
+	body.doctor_body {
+		padding-top:68px;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+	    top: 58px;
+	}
+	.dropdown-menu > li > a {
+	    padding: 0 15px;
+	    line-height: 40px;
+	}
+	.navbar-dark .navbar-toggler {
+	    color: rgba(255,255,255,.5);
+	    border-color: transparent;
+	    display: none;
+	}
+	.navbar>.container, .navbar>.container-fluid {
+		display: -ms-flexbox;
+		display: block;
+	}
+	.navbar-collapse.collapse {
+	    vertical-align: top;
+	    float: right;
+	}
+	.navbar-nav {
+	    display: -ms-flexbox;
+	    display: inline-block;
+	}
+	body.doctor_body .navbar-custom .navbar-nav .nav-item .nav-link {
+	    padding:14px 20px 14px 10px;
+	}
+	body.doctor_body .hamburger {
+		top: 20px;
+		right: 15px;
+	}
+	li.download.nav-item a.nav-link.dropdown-toggle {
+	    padding:22px 10px 20px;
+	}
+	body.doctor_body .navbar-custom {
+		padding-top: 8px;
+		padding-bottom: 10px;
+		background-color: #a42127;
+	}
+	.inputbar input {
+	    width: 290px;
+	    font-size: 12px;
+	    padding-right: 10px;
+	}
+	.search-icon {
+		position: absolute;
+		top: 4px;
+		left: 10px;
+		display: block;
+	}
+	a.navbar-brand img {
+		width: 170px;
+		margin-bottom: 0px;
+	}
+	section {
+		padding: 50px 0;
+	}
+	#sidebar-wrapper {
+	    top: 65px;
+	}
+	/*******/
+	.reminder-ctpart h4 {
+	    font-size: 12px;
+	}
+	ul.doctor_reminder li {
+	    width: 49%;
+	    font-size: 13px;
+	}
+	.dowanload-header {
+		padding: 3px 20px 2px;
+	}
+	.token-rightdoctor {
+		width: 100%;
+		text-align: center;
+	}
+	.token h4 {
+		line-height: 60px;
+		border-right: 0;
+		font-size: 24px;
+		margin-bottom: 0;
+		font-weight: bold;
+		border-bottom: 1px solid #ddd;
+	}
+	.token {
+		width: 100%;
+		text-align: center;
+	}
+	.doc-timingslot a {
+		color: #FFF;
+	}
+	.tockenimg-right {
+		width: 60px;
+		height: 65px;
+	}
+	.token-timingdoc {
+		width: 100%;
+	}
+	.totalpatient-part ul li p {
+		font-size: 12px;
+	}
+	.doc-timingslot ul li {
+		font-size: 14px;
+	}
+	.doc_specify p span {
+		margin-bottom: 10px;
+	}
+	.slick-dots {
+		display: none !important;
+	}
+	.resp-accordion.hor_1 {
+		display: none;
+	}
+	.resp-tabs-list li {
+		font-size: 14px !important;
+		font-weight: 300 !important;
+	}
+	.tablist-diserpthree ul li {
+		width: 32.4%;
+	}
+	.today-appoimentpart h3 {
+		font-size: 18px;
+	}
+	.next_appointment {
+	    position: absolute;
+	    right: 0;
+	    top: -6px;
+	    float: right;
+	    width: 100px;
+	    line-height: 20px;
+	}
+	ul.ui-autocomplete.ui-front {
+		z-index:9999;
+	}
+	ul h2.ui-menu-item:first-child {
+		margin-top: 0;
+	}
+	.doctor-feeandm ul li {
+	    text-align: center !important;
+	    width: 100%;
+	    margin-left: 0;
+	    font-size: 13px;
+	}
+	.pace-icon img {
+		width: 32px;
+	}
+	.topheader-searchbar {
+	    margin-top: 14px;
+	}
+	a.navbar-brand img {
+	    margin-top:10px;
+	}
+
+	.category-part button.slick-prev.slick-arrow {
+    	left: -9px;
+	}
+	.category-part button.slick-next.slick-arrow {
+    	right: 10px;
+	}
+	.hospitals-detailspt .resp-tab-inactive a {
+	    font-weight: 300;
+	    font-size: 14px;
+	}
+	.click-box {
+	    width: 100%;
+	    padding: 25px 15px 0;
+	}
+	.record_file_img {
+	    min-height: 290px;
+	    position: relative;
+	}
+	.form-group.field-user-email {
+	    margin-bottom: 0;
+	}
+	.field-userprofile-gender {
+	    margin-bottom:5px;
+	}
+	.signup-part input[type="text"], .signup-part select, .signup-part input[type="password"] {
+	    margin-bottom: 7px;
+	}
+	#statistics-appointments .tablist-diserp ul li {
+	    width: 49.3%;
+	}
+	.doc_specify > p {
+	    margin-bottom: 0;
+	}
+
+}
+@media screen and (max-width:1099px) {
+.tockenimg-right {
+    margin-right: 0;
+}
+body.patient_body #sidebar-wrapper {
+    top: 65px;
+}
+.topheader-searchbar {
+    margin-top: 14px;
+    margin-left: 0;
+    width: 280px;
+}
+body.doctor_body .topheader-searchbar {
+	    margin-top:0px;
+}
+body.doctor_body a.navbar-brand img {
+    margin-top: 4px;
+}
+body.patient_body a.navbar-brand img {
+    margin-top: 10px !important;
+}
+a.navbar-brand img {
+    margin-top:10px;
+}
+.bookappoiment-btn button.login-sumbit {
+	    background-color: #a42127;
+	    margin: auto;
+	    width: 200px;
+	}
+
+}
+
+@media screen and (max-width:900px) {
+	.record_file_img {
+	    min-height: 200px;
+	    position: relative;
+	    margin-top: 15px;
+	}
+	.record_file_img a:nth-child(2) {
+	    height: 120px;
+	    overflow: hidden;
+	}
+	body.doctor_body .navbar-custom .navbar-nav .nav-item .nav-link {
+		padding: 10px 5px 10px;
+	}
+	body.doctor_body .navbar-custom {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.allover-reminderpart {
+	    padding: 0 10px;
+	}
+	.category-box p {
+	    font-size: 15px;
+	}
+	a.navbar-brand img {
+		margin-top:10px;
+	}
+	.navbar-nav {
+	    float: left;
+	    margin: 0 10px 0 0;
+	}
+	body.doctor_body .hamburger {
+		top: 18px;
+		right: 15px;
+	}
+	.token_text {
+	    padding-top: 35px;
+	}
+	.hamburger {
+	    right: 12px;
+	}
+	#sidebar-wrapper {
+	    top: 69px;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+	body.doctor_body {
+		padding-top: 65px;
+	}
+	.navbar-dark .navbar-brand {
+	    color: #fff;
+	    margin-top: 10px;
+	}
+	.navbar-dark .navbar-brand {
+	    color: #fff;
+	    margin-top: 0;
+	}
+	body.doctor_body .topheader-searchbar {
+	    margin-top:0px;
+	}
+	body.doctor_body a.navbar-brand img {
+	    margin-top: 0px;
+	}
+	body.patient_body a.navbar-brand img {
+	    margin-top: 10px !important;
+	}
+	a.navbar-brand img {
+	    margin-top: 10px;
+	}
+	.navbar-dark .navbar-toggler {
+	    display: none;
+	}
+	.inputbar input {
+	    width: 280px;
+	    font-size: 11px;
+	}
+	.patient_body li.download.nav-item a.nav-link.dropdown-toggle {
+	    padding: 22px 0 20px;
+	}
+	.patient_body .navbar-collapse.collapse {
+	    margin: 0 35px 0 0px;
+	}
+	.search-icon {
+		position: absolute;
+		top: 1px;
+	}
+	.hamburger {
+		margin-left: 15px;
+		width: 20px !important;
+		right: 25px;
+	}
+	.navbar-custom {
+		padding-top:0px;
+		padding-bottom:0px;
+		background-color: #a42127;
+	}
+	.navbar-nav > li {
+		float: none;
+		display: inline-block !important;
+		padding: 0px;
+	}
+	.navbar-nav {
+		float: left;
+		margin-left: auto!important;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.topheader-searchbar {
+	    margin-top: 0px;
+	    margin-left: 0px;
+	    margin: auto;
+	    display: inline-block;
+	    vertical-align: middle;
+	    padding-top: 14px;
+	}
+	.click-box {
+		display: inline-block;
+		width: 100%;
+	}
+	ul.slick-dots {
+		display: none !important;
+	}
+	.category-box p {
+	    line-height: 15px;
+	    font-size: 11px;
+	}
+	button.slick-prev.slick-arrow {
+		left: 0;
+		background-image: url(../images/left.png);
+		background-repeat: no-repeat;
+		width: 30px;
+		height: 40px;
+		background-position: center center;
+		background-size: 8px;
+	}
+	button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+		text-indent: -99999px;
+		position: absolute;
+		top: 36%;
+		z-index: 1015;
+	}
+	button.slick-next.slick-arrow {
+		right: 0;
+		background-image: url(../images/right.png);
+		background-repeat: no-repeat;
+		background-size: 8px;
+		width: 30px;
+		height: 40px;
+		background-position: center center;
+	}
+	section {
+		padding: 40px 0;
+		position: relative;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		top: 60px;
+	}
+	/*******/
+	.reminder-ctpart h4 {
+		font-size: 13px;
+	}
+	.hospit_fees .add_timig ul li a {
+		font-size: 14px;
+	}
+	.doc-timingslot ul li {
+		font-size: 14px;
+	}
+	.token-rightdoctor {
+		width: 100%;
+		text-align: center;
+	}
+	.token h4 {
+		line-height: 60px;
+		border-right: 0;
+		font-size: 24px;
+		margin-bottom: 0;
+		font-weight: bold;
+		border-bottom: 1px solid #ddd;
+	}
+	.token {
+		width: 100%;
+		text-align: center;
+	}
+	.doc-timingslot a {
+		color: #000;
+	}
+	.tockenimg-right {
+	    width: 60px;
+	    height: 65px;
+	    margin-right: 0;
+	}
+	.token-timingdoc {
+		width: 100%;
+	}
+	.totalpatient-part ul li p {
+	    font-size: 12px;
+	    line-height: 20px;
+	    padding: 0 7px;
+	    font-weight: 400;
+	}
+	.doctor_detail_left {
+		float: left;
+		width: 100%;
+	}
+	.doctor_detail_right {
+		float: left;
+		width: 100%;
+	}
+	.doc_specify {
+		float: right;
+		width: 100%;
+		text-align: center;
+	}
+	.image_doc {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.doctor_detail_right li {
+		font-size: 13px;
+		width: 100%;
+	}
+	.button_bottom_c a {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		margin: 5px 0;
+	}
+	.doc_specify h4 {
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	.lg_pb_30 {
+		font-size: 20px;
+	}
+	ul.doctor_reminder li {
+	    display: inline-block;
+	    width: 48%;
+	    font-size: 12px !important;
+	    margin-bottom: 0 !important;
+	}
+	button.navbar-toggler {
+		display: none;
+	}
+	.getbox-ctdis p {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 300;
+		line-height: 20px;
+	}
+	.doctor-feeandm ul li:first-child, .doctor-feeandm ul li, .doctor-feeandm ul li:last-child {
+		text-align: center;
+		width:100%;
+	}
+	.all-listhospital h5, .price_text {
+		font-size: 18px !important;
+	}
+	.filter-part .resp-vtabs .resp-tabs-container {
+		width: 100%;
+		height: 320px;
+		overflow: scroll;
+	}
+	h2.resp-accordion {
+		font-size: 15px !important;
+		padding: 15px 15px;
+	}
+	.doctor-feeandm {
+		min-height: 100px;
+	}
+	.doctoe_listing_one {
+		min-height: 360px;
+	}
+	.next_appointment {
+		position: absolute;
+		right: 0;
+		top: -5px;
+		float: right;
+		width: 100px;
+		line-height: 20px;
+	}
+	.category-part button.slick-prev.slick-arrow, .category-part button.slick-next.slick-arrow {
+		text-indent: -99999px;
+		position: absolute;
+		top: 31%;
+		z-index: 1015;
+		opacity: 0.8;
+	}
+	.category-part button.slick-prev.slick-arrow:hover, .category-part button.slick-next.slick-arrow:hover {
+		opacity: 1;
+	}
+	.category-part button.slick-next.slick-arrow {
+	    right: -5px;
+	}
+	.day_name h3 {
+		font-size: 20px !important;
+	}
+	.doc-timingslot .shift_slots a {
+		font-weight: normal;
+	}
+	.doc-timingslot ul li span {
+		display: block;
+		font-weight: normal;
+	}
+	.hospitals-detailspt .resp-tab-inactive a {
+		color: #7a7a7a;
+		font-weight: normal;
+		font-size: 14px;
+	}
+	
+	body.doctor_body .navbar-collapse.collapse {
+		vertical-align: top;
+		width: auto;
+		margin: 0 20px 0 0;
+	}
+	.navbar-collapse.collapse {
+	    vertical-align: middle;
+	    width: auto;
+	    margin: 0 0 0 10px;
+	    padding: 0;
+	    float: right;
+	}
+	body.doctor_body .hamburger {
+		top: 19px;
+		right: 15px;
+	}
+	ul.doctor_reminder.doctor_reminder_edit li {
+	    position: relative;
+	    text-align: left;
+	    line-height: 15px;
+	    margin-bottom: 10px;
+	    font-size: 12px;
+	}
+	.reminder-edit-del {
+	    right: 20px;
+	}
+	.register-section .modal-dialog {
+	    max-width: 620px;
+	}
+	#sidebar-wrapper {
+	    top: 111px;
+	}
+	body.doctor_body #sidebar-wrapper {
+	    top: 64px;
+	}
+	.record_file_img span {
+	    min-height: 40px;
+	}
+	.bookappoiment-btn {
+	    width: 100%;
+	    display: inline-block;
+	    margin: 0 0 10px;
+	    text-align: center;
+	}
+	.bookappoiment-btn input[type=button] {
+	    padding: 5px 30px;
+	    margin:10px 0 0;
+	    width: 100%;
+	}
+	.tablist-diserpthree ul li {
+	    width: 31.5%;
+	}
+	button.filter-btn.filter_btn_left {
+	    top:80px;
+	}
+	#statistics-appointments .tablist-diserp ul li {
+		width: 49.1%;
+		text-align: center;
+		border-radius: 45px;
+	}
+	.allover-reminderpart {
+	    padding: 0 10px;
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+	}
+
+
+		
+}
+@media screen and (max-width:767px) {
+	.navbar-collapse.collapse {
+	    vertical-align: top;
+	    width: 100%;
+	    margin: 10px 0 0;
+	}
+	.navbar-dark .navbar-brand {
+	    color: #fff;
+	    margin-top: 0;
+	}
+	button.navbar-toggler {
+		display: block;
+	}
+	.dowanload-header {
+		margin-left: 0px;
+	}
+	.topheader-searchbar {
+		margin-left: 0px;
+	}
+	body {
+		padding-top: 64px;
+	}
+	section.online-appointment h1 {
+		font-size: 20px;
+	}
+	.slider-part.homeslider button.slick-prev.slick-arrow, .slider-part.homeslider button.slick-next.slick-arrow {
+		top:40%;
+	}
+	.patient_body .navbar-collapse.collapse {
+	    margin: 0;
+	}
+	.click-box p {
+		font-size: 20px;
+	}
+	.navbar-dark .navbar-toggler {
+	    display: block;
+	}
+	.mobile_img {
+	    width: 100%;
+	    display: inline-block;
+	    text-align: center;
+	    margin: 2px auto;
+	}
+	.field-userprofile-gender label.control-label {
+		margin-bottom: 0;
+		margin-top: 0px;
+	}
+	/****/
+	.AdsPart {
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+	a.call_btn img {
+		width: 30px;
+	}
+	.pace-right h4 {
+		font-size: 18px;
+	}
+	.pace-left {
+		width: 70px;
+		height: 70px;
+		overflow: hidden;
+	}
+	.inputbar input {
+		width: 228px;
+		padding: 4px 10px 3px 30px;
+	}
+	.user_profile_img {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.addnew {
+		text-align: center;
+	}
+	.allover-reminderpart {
+		padding: 0 10px;
+		margin-bottom: 15px;
+	}
+	.reminder-ctpart h4 {
+		font-size: 18px;
+	}
+	.doc-timingslot ul li {
+	    width: 100%;
+	    font-size: 11px;
+	    border-bottom: 1px solid #ddd;
+	}
+	.doc-timingslot ul li:last-child {
+		border: 0;
+	}
+	.token-rightdoctor {
+		width: 100%;
+	}
+	.token h4 {
+		line-height: 60px;
+		border-right: 0;
+		font-size: 24px;
+		margin-bottom: 0;
+		font-weight: bold;
+		border-bottom: 1px solid #ddd;
+	}
+	.token {
+		width: 100%;
+	}
+	.doc-timingslot a {
+		color: #000;
+	}
+	.tockenimg-right {
+		width: 60px;
+		height: 65px;
+	}
+	.doctor_detail_left {
+		float: left;
+		width: 100%;
+	}
+	.doctor_detail_right {
+		float: left;
+		width: 100%;
+	}
+	.doc_specify {
+		float: right;
+		width: 100%;
+		text-align: center;
+	}
+	.image_doc {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	.doctor_detail_right li {
+		font-size: 13px;
+		width: 100%;
+	}
+	.button_bottom_c a {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		margin: 5px 0;
+	}
+	.doc_specify h4 {
+		font-size: 17px;
+		margin-top: 20px;
+	}
+	.lg_pb_30 {
+		font-size: 20px;
+	}
+	.time-bg {
+		display: inline-block;
+	}
+	.appoiment-form-part h5 label {
+		font-size: 16px;
+	}
+	.pace-right .pull-right img {
+		width: 20px;
+	}
+	.youare-text {
+		font-size: 14px;
+	}
+	.pace-right p {
+		font-size: 13px;
+	}
+	.btdetialpart p {
+		font-size: 16px;
+	}
+	.hospitals-detailspt button.slick-prev.slick-arrow {
+		left: 0;
+	}
+	.hospitals-detailspt button.slick-next.slick-arrow {
+		right: 0;
+	}
+	.discri_edithost span {
+		margin: 0;
+	}
+	.token-rightdoctor1 {
+		width: calc(100% - 80px);
+	}
+	.token1 {
+		width: 70px;
+	}
+	.token-timingdoc1 h3 {
+		font-size: 14px;
+	}
+	.token1 h4 {
+		line-height: 40px;
+		font-size: 18px;
+	}
+	ul.doctor_reminder li {
+		width: 49%;
+		display: inline-block;
+		float: left;
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+	.patient_reminder .pace-part {
+		padding: 20px 0 0;
+	}
+	.add-siftpart {
+		margin-top: 10px;
+	}
+	section.mid-content-part h2 {
+		font-size: 14px;
+	}
+	.tablist-diserp ul li {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.resp-accordion.hor_1 {
+		display: none;
+	}
+	.today-appoimentpart h3 {
+		font-size: 16px;
+	}
+	.today-appoimentpart p {
+		font-size: 14px;
+	}
+	.calender_icon_main {
+		top: -15px;
+	}
+	.calender_icon_main img {
+		width: 20px;
+	}
+	.next_appointment a {
+		font-size: 11px;
+		line-height: 15px;
+	}
+	.next_appointment {
+		position: absolute;
+		right: 0;
+		top:0px;
+		float: right;
+		width: 50px;
+	}
+	.pace-right {
+	    width: calc(100% - 85px);
+	    float: right;
+	}
+	.pace-right.reminder_icon {
+	    width: calc(100% - 105px);
+	}
+	.signup-part .login-sumbit {
+		width: 220px;
+		display: inline-block;
+		text-align: center;
+		background: #a42127;
+		margin: 0;
+	}
+	.signup-part input[type="text"], .signup-part select, .signup-part input[type="password"] {
+		margin-bottom: 0;
+	}
+	.select2-container--krajee .select2-selection--single .select2-selection__rendered {
+		font-size: 12px;
+	}
+	.resp-tabs-list li {
+	    margin-bottom: 10px !important;
+	    padding: 8px 5px !important;
+	    font-size: 11px !important;
+	}
+	.appointment_date_select {
+		width: 90%;
+	}
+	.today-appoimentpart .calender_icon_main {
+	    top: -22px;
+	    margin-bottom: 10px;
+	    right: 0;
+	}
+	.navbar-custom {
+		padding: 10px 15px 10px;
+	}
+	.navbar-toggler {
+		padding: 0 10px;
+		float: right;
+		position: absolute;
+		right: 40px;
+		font-size: 33px;
+		color: #FFF !important;
+		top: 14px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		padding: 10px 5px 10px;
+	}
+	.navbar-collapse {
+		margin-top: 10px;
+	}
+	.click-box {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	#signup-modal .modal-dialog {
+		width: 90%;
+	}
+	ul.dropdown-menu.top-userpart.login-menu p {
+		line-height: 15px;
+		margin-bottom: 12px;
+	}
+	.register-section .modal-header h3 {
+		color: #fff;
+		font-size: 16px;
+		line-height: 32px;
+		margin-bottom: 0;
+	}
+	.register-section .modal-header h3 span {
+		font-size: 15px;
+	}
+	[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+		font-size: 13px;
+		margin-right: 6px;
+	}
+	.search-boxicon {
+		margin-bottom:5px;
+	}
+	.mid-content-.search-boxicon {
+	    margin-bottom: 20px;
+	}
+	.doctor-feeandm ul li {
+		text-align: center;
+		margin-left: 8px;
+		width: auto;
+		font-size: 13px;
+		display: block;
+	}
+	.navbar-collapse {
+		margin-top: 0;
+		clear:both;
+	}
+	body {
+		padding-top:54px;
+	}
+	body.patient_body {
+		padding-top:65px;
+	}
+
+	body.patient_body #sidebar-wrapper {
+	    top: 65px;
+	}
+	ul.doctor_reminder.doctor_reminder_edit li {
+	    margin-bottom: 10px !important;
+	}
+	.reminder-col .pace-left {
+	    margin-left: 15px;
+	}
+	.register-section .modal-dialog {
+	    max-width: 420px;
+	}
+	button.filter-btn {
+	    margin-bottom: 0;
+	    top: 110px;
+	}
+	.field-file1.has-error .help-block {
+	    left: -300px;
+	    right: 0px;
+	    bottom: -38px;
+	}
+	.file_row .submitbtn {
+	    margin-top: 30px;
+	}
+	.record_file_img {
+	    min-height: 250px;
+	    margin-top: 30px;
+	}
+	.record_file_img a:nth-child(2) {
+	    height: 180px;
+	    overflow: hidden;
+	}
+	.modal-dialog {
+	    width: 92%;
+	}
+	.hamburger {
+	    margin-left: 15px;
+	    width: 20px !important;
+	    right: 17px;
+	    top: 19px;
+	}
+	.booking_detail_btn input.confirm-theme {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.topheader-searchbar {
+	    display: inline-block;
+	    margin-top: 5px !important;
+	    margin-left: 20px;
+	    vertical-align: middle;
+	    padding-top: 0;
+	}
+	button.filter-btn.filter_btn_left {
+	    top: 80px;
+	}
+	.category-part button.slick-prev.slick-arrow, .category-part button.slick-next.slick-arrow {
+	    top: 14%;
+	}
+	.form-group.field-user-phone, .form-group.field-userprofile-degree {
+	    margin-top: 5px;
+	}
+	li.download.nav-item a.nav-link.dropdown-toggle {
+	    padding: 17px 3px;
+	}
+	ul.dropdown-menu.top-userpart.login-menu {
+	    width: 340px;
+	    padding: 20px;
+	    background-color: #FFF;
+	    border: 1px solid #eee;
+	    left: auto;
+	    right: -72px;
+	    margin: auto;
+	}
+	a.navbar-brand img {
+	    margin-top: 0;
+	}
+	#pslotTokenContent .btdetialpart input.confirm-theme {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+	.time-bg {
+		padding: 0 15px;
+	}
+	body.doctor_body .hamburger {
+		top: 19px;
+		right: 15px;
+	}
+	.hospitals-detailspt .resp-tab-inactive a {
+	    color: #7a7a7a;
+	    font-weight: normal;
+	    font-size: 11px;
+	}
+	.tockenimg-right {
+	    margin-right: 0;
+	}
+	.today-appoimentpart .calender_icon_main i.fa.fa-plus-circle {
+	    margin-top: 20px;
+	}
+	.review_top_details {
+	    display: block;
+	    float: none !important;
+	}
+
+	/*.sidebar-nav li a {
+	    color: #dddddd;
+	    display: block;
+	    padding: 7px 10px 7px 15px;
+	    text-decoration: none;
+	    border-bottom: 1px solid #000;
+	    font-size: 12px;
+	}*/
+	body.patient_body a.navbar-brand img {
+	    margin-top:0px !important;
+	}
+	.attender_part .pace-right {
+	    margin-top: 0;
+	}
+	a#experiences-popup {
+    	padding-top: 13px;
+	    display: block;
+	}
+	#edu_form_btn.login-sumbit {
+	    width: 100% !important;
+	}
+	.track_headline {
+	    width: auto;
+	    display: inline-block;
+	    margin-bottom: 10px;
+	}
+	
+}
+@media screen and (max-device-width:1024px) and (orientation: landscape) {
+  .sidebar-nav {
+	    overflow-y: auto;
+	    height: 308px;
+	}
+}
+@media screen and (max-device-width:767px) and (orientation: landscape) {
+	body.doctor_body .navbar-collapse.collapse {
+	    vertical-align: top;
+	    width: auto;
+	    width: 100%;
+	    margin: 10px 0 0 ;
+	}
+}
+@media screen and (max-device-width:700px) and (orientation: landscape) {
+  .sidebar-nav {
+	    overflow-y: auto;
+	    height:312px;
+	}
+}
+@media screen and (max-device-width:568px) and (orientation: landscape) {
+  .sidebar-nav {
+	    overflow-y: auto;
+	    height:260px;
+	}
+}
+@media screen and (max-device-width:480px) and (orientation: landscape) {
+  .sidebar-nav {
+	    overflow-y: auto;
+	    height: 255px;
+	}
+}
+
+
+@media screen and (max-width:568px) {
+	
+    ul.doctor_reminder.doctor_reminder_edit li {
+	    padding-left: 15px;
+	    margin-bottom: 10px !important;
+	}
+	.hamburger {
+	    top: 15px;
+	}
+	body.doctor_body #sidebar-wrapper {
+	    top:60px;
+	}
+	body.patient_body {
+	    padding-top: 105px;
+	}
+	body.patient_body #sidebar-wrapper {
+	    top: 109px;
+	}
+	.inputbar {
+		width: 100%;
+	}
+	.inputbar input {
+		width: 100%;
+	}
+	.navbar-brand {
+		padding: 0;
+	}
+	.down-arrow {
+		font-size: 36px;
+		margin-right: 25px;
+		color: #FFF;
+	}
+	.navbar-toggler {
+		padding: 0;
+		float: right;
+		position: absolute;
+		right: 40px;
+		font-size: 22px;
+		color: #FFF !important;
+		top: 7px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		padding: 5px 5px 5px;
+	}
+	.click-box {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.navbar-brand {
+		width: 100%;
+		margin:0px;
+	}
+	button.slick-prev.slick-arrow {
+		left: 0px;
+	}
+	button.slick-next.slick-arrow {
+		right: 0px;
+	}
+	a.find-btn {
+		padding: 15px 15px;
+		font-size: 14px;
+	}
+	.p-5 {
+		padding: 1rem !important;
+	}
+	.h2, h2 {
+		font-size: 22px;
+	}
+	.copy-part p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	section {
+		padding:20px 0;
+	}
+	.category-box p {
+		line-height: 26px;
+	}
+	.inputbar input {
+		margin-bottom: 0px;
+		font-size: 12px;
+	}
+	.topheader-searchbar {
+		width: 100%;
+		margin-left: 0;
+	}
+	.dowanload-header {
+		margin-left: 0px;
+		background: #660005;
+		padding: 3px 14px;
+		font-size: 12px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		font-size: 13px;
+	}
+	a.navbar-brand img {
+		width: 130px;
+	}
+	.dowanload-header i {
+		margin-right: 5px;
+	}
+	.navbar-nav > li {
+		padding: 0 4px;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		left: -94px;
+	}
+	/****/
+	.youare-text {
+		font-size: 12px;
+	}
+	.btdetialpart p {
+	    font-size: 13px;
+	    margin-bottom: 5px;
+	}
+	ul.doctor_reminder li {
+		width: 49%;
+		display: inline-block;
+		float: left;
+		font-size: 10px;
+		margin-bottom: 0;
+	}
+	.tablist-diserpthree ul li {
+		width: 100%;
+	}
+	.docnew-tab ul li {
+		width: 100%;
+	}
+	.doctforstab ul li {
+		width: 100%;
+	}
+	.tablist-diserp ul li {
+		width: 100%;
+	}
+	/*New*/
+	
+	.navbar-custom {
+		padding: 10px 15px 10px;
+	}
+	.modal-dialog {
+		width: 92%;
+	}
+	.reg_group_channge {
+		text-align: center;
+		padding: 0;
+	}
+	.span_col_4 {
+		width: 50%;
+		display: block;
+		float: left;
+		text-align: left;
+	}
+	.login-section .modal-header h3 {
+		color: #fff;
+		font-size: 21px;
+	}
+	.login-section .modal-header h3 span {
+		font-size: 17px;
+	}
+	.filter-part .resp-vtabs .resp-tabs-container {
+		width: 100%;
+	}
+	.resp-tab-active {
+		border: 1px solid transparent !important;
+		border-bottom: none;
+		margin-bottom: -1px !important;
+		padding: 8px 14px 8px 14px !important;
+		border-top: 4px solid transparent !important;
+		border-bottom: 0px #fff solid !important;
+	}
+	ul.filter-menu {
+		overflow-y: scroll;
+		height: 165px;
+	}
+	ul.filter-menu.no-scroll {
+		overflow-y: scroll;
+		padding-bottom: 40px;
+	}
+	section.mid-content-part h2 {
+		width: 100%;
+		text-align: left;
+	}
+	ul.ui-autocomplete.ui-front {
+		width: 285px !important;
+		z-index: 99999 !important;
+	}
+	.signup-part [type="submit"], .signup-part [type="button"] {
+	    width: 250px;
+	    display: inline-block;
+	}
+	section.category-part h2 {
+		padding: 15px 0 20px 10px;
+		color: #a42126;
+		font-weight: 300;
+	}
+	.add-record li a i {
+		font-size: 20px;
+		margin-left: 7px;
+	}
+	.likesicon-part i {
+		margin-left: 7px;
+	}
+	.pace-part p {
+		font-size: 12px;
+	}
+	.pace-icon {
+		width: 45px;
+		height: auto;
+	}
+	.pace-icon img {
+		width: 30px;
+	}
+	.pace-right.main-second {
+		width: calc(100% - 50px);
+		float: right;
+	}
+	.away-part.pull-right {
+		width: 100%;
+	}
+	.pacemain-list {
+		width: 100%;
+	}
+	.away-part.pull-right a {
+		margin-right: 10px;
+	}
+	.pace-right {
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 0;
+	}
+	.doc-listboxes .pull-left {
+	    width: 100%;
+	    text-align: center !important;
+	}
+	.doc-listboxes .pull-right {
+		width: 100%;
+		text-align: center !important;
+	}
+	.doc-listboxes .pull-right strong {
+		color: #000;
+		letter-spacing: 1px;
+	}
+	.away-part.pull-right br {
+		display: none;
+	}
+	.pace-part.main-tow .pace-right {
+		text-align: center;
+	}
+	ul h2.ui-menu-item:first-child {
+		margin-top: 0;
+	}
+	.all-listhospital h5 {
+		font-size: 16px !important;
+	}
+	span.price_text.pull-right {
+		font-size: 16px;
+	}
+	.hos-lr-part .pull-right {
+		text-align: left;
+		width: 100%;
+	}
+	section.mid-content-part.customer_care {
+		min-height: 290px;
+		margin-top: 10px;
+	}
+	.doc-listboxes .pull-left p, .doc-listboxes .pull-right p {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.appointment-bookbtn .bookappoiment-btn input[type=button] {
+		padding: 5px 30px;
+		margin: 0;
+		text-align: center !important;
+	}
+	.doc-listboxes .pull-left.token-left, .pull-right.text-right.token-right {
+		width: auto;
+	}
+	.doc-listboxes.token_appointment .pull-right.token-right {
+		width: auto;
+	}
+	.doc-listboxes.token_appointment .pull-right.token-right p.price_text strong {
+		color: #FFF !important;
+	}
+	.bookappoiment-btn {
+		width: 100%;
+		display: inline-block;
+		margin: 5px 0;
+		text-align: center;
+	}
+	.bookappoiment-btn input[type=button] {
+		margin: 0;
+	}
+	.check_icon img {
+		margin-right: 10px;
+	}
+	.bookappoiment-btn input.bookinput {
+		margin-bottom: 10px;
+		text-align: center !important;
+	}
+	.appointment_list ul li.resp-tab-active a {
+		color: #fff;
+		font-size: 13px;
+	}
+	.hospitals-detailspt .resp-tab-inactive a {
+	    color: #7a7a7a;
+	    font-weight: normal;
+	    font-size: 13px;
+	}
+	a.app_next {
+		background-color: #a42127;
+		padding: 5px 10px;
+		color: #FFF !important;
+		border-radius: 50px;
+		margin-top: 7px;
+	}
+	.record-col .pull-left {
+		width: 100%;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+	}
+	.record-col .pull-right {
+		float: left;
+		text-align: left;
+		width: 100%;
+	}
+	a.time-bg {
+		color: #a42127;
+		font-size: 11px;
+		padding: 0 10px;
+	}
+	/* / Doctor */
+	
+	
+	.week_sectionmain ul li {
+		width: auto;
+		display: inline-block;
+		margin-right: 0px;
+	}
+	.add_siftbox {
+		width: 100%;
+		text-align: center;
+	}
+	.bookappoiment-btn button.login-sumbit {
+		background-color: #a42127;
+		width: 100%;
+	}
+	.edit-delete {
+		position: absolute;
+		right: 0px;
+		font-size: 20px;
+	}
+	.today-appoimentpart .calender_icon_main {
+		right: 0;
+	}
+	label.control-label {
+		font-weight: 400;
+	}
+	.field-file1.has-error .help-block {
+		display: block;
+		position: absolute;
+		left: -150px;
+		right: 0px;
+		bottom: -20px;
+		margin: auto;
+	}
+	.file_row .submitbtn {
+		margin-top: 30px;
+	}
+	.hospitals-detailspt .pace-left, .appointment_part .pace-left {
+		display: block;
+		float: none;
+		margin: auto;
+		margin-bottom: 12px;
+	}
+	.register-section .modal-body .pace-left, .patient_reminder .pace-left {
+		display: block;
+		text-align: center;
+		margin: auto;
+		float: none;
+		margin-bottom: 10px;
+	}
+	button.btn.confirm-theme.statusID {
+		font-size: 13px;
+		margin-left: 0;
+	}
+	
+	.dropdown-menu > li > a {
+		padding: 0 13px;
+	}
+
+	.category-part button.slick-next.slick-arrow {
+		right: -10px;
+	}
+	.category-part button.slick-prev.slick-arrow {
+		left: -10px;
+	}
+	.pace-right h4 {
+		font-size: 15px;
+	}
+
+	.reminder-edit-del {
+	    position: relative;
+	    top: auto;
+	    right: auto;
+	    display: block;
+	    text-align: center;
+	    width: 100%;
+	    clear: both;
+	}
+	.reminder-edit-del a {
+	    float: none !important;
+	    margin-bottom: 4px;
+	    display: inline-block;
+	}
+	.record_file_img {
+	    min-height: 275px;
+	}
+	.record_file_img a:nth-child(2) {
+	    height: 200px;
+	    overflow: hidden;
+	}
+	.next_appointment {
+	    position: absolute;
+	    right: 0;
+	    top: -80px;
+	    float: right;
+	    width: 90px;
+	}
+	.reminder-left {
+	    width: 68%;
+	    float: left;
+	    display: inline-block;
+	}
+	.pace-part.main-tow .pace-left {
+	    float: none;
+	    margin: auto;
+	    margin-bottom: 15px;
+	}
+
+	.btdetialpart button.confirm-theme {
+	    width: 100%;
+	}
+
+	.date .btn.btn-default {
+	    width: auto;
+	}
+	#statistics-appointments .tablist-diserp ul li {
+	    width: 48.5%;
+	    text-align: center;
+	    border-radius: 45px;
+	}
+	.reminder-right {
+	    width: 60px;
+	    height: 60px;
+	    overflow: hidden;
+	    float: right;
+	}
+	.token-rightdoctor1 {
+	    padding: 10px 0 5px;
+	}
+    .token-timingdoc1 p {
+	    margin-bottom: 0;
+	    line-height: 18px;
+	    font-size: 11px;
+	}
+	.tockenimg-right {
+	    width: 50px;
+	    height: 55px;
+	    margin-right: 5px;
+	}
+	.tockenimg-right img {
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	}
+	.token-timingdoc1 {
+	    width: calc(100% - 85px);
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.token1 {
+	    width: 70px;
+	    height: 110px;
+	}
+	.token_text {
+	    padding-top: 27px;
+	    color: #fff;
+	    font-size: 16px;
+	    margin-bottom: 0px;
+	}
+	.token-timingdoc1 h3 {
+	    font-size: 12px;
+	}
+	.number-partdoc {
+	    font-size: 11px;
+	    line-height: 18px;
+	    padding: 0;
+	    margin: 0;
+	}
+	.hospitals-detailspt ul.resp-tabs-list {
+	    margin-bottom: -10px;
+	}
+	#pslotTokenContent .btdetialpart button.confirm-theme {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	button.filter-btn.filter_btn_left {
+	    top:112px;
+	}
+	.today-appoimentpart .calender_icon_main {
+		top: -15px;
+		margin-bottom: 10px;
+		right: 0;
+	}
+	body.doctor_body {
+		padding-top: 56px;
+	}
+	body.doctor_body .hamburger {
+		top: 14px;
+		right: 15px;
+	}
+	.appointment_details .pace-part.main-tow {
+		margin-bottom: 15px;
+	}
+	.patient_body .navbar-collapse.collapse {
+	    margin: 0;
+	}
+	.today-appoimentpart .calender_icon_main i.fa.fa-plus-circle {
+		margin-top: 20px;
+	}
+	body.doctor_body .today-appoimentpart .calender_icon_main i.fa.fa-plus-circle {
+	    margin-top: 13px;
+	}
+	.totalpatient-part ul li p {
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding: 0 5px;
+	    font-weight: 400;
+	}
+	a.navbar-brand img {
+		width: 150px;
+		margin-bottom: 0px;
+	}
+	.topheader-searchbar {
+		margin-left: 0;
+	}
+	body.patient_body #sidebar-wrapper {
+		top:105px;
+	}
+	.navbar-toggler {
+		padding: 0 5px;
+	}
+	.topheader-searchbar {
+	    margin-top: 10px !important;
+	}
+	.sidebar-nav li a {
+	    padding: 10px 15px 11px 15px;
+	}
+	button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+	    top: 35%;
+	}
+	.category-part button.slick-prev.slick-arrow, .category-part button.slick-next.slick-arrow {
+	    top: 28%;
+	}
+
+	.slider-part.homeslider button.slick-prev.slick-arrow, .slider-part.homeslider button.slick-next.slick-arrow {
+	    top: 35%;
+	}
+	.accept-hospital-request .pace-left, .accept-hospital-request .pace-right {
+	    text-align: center;
+	}
+	.accept-hospital-request .pace-left {
+	    width: 70px;
+	    height: 70px;
+	    overflow: hidden;
+	    float: none;
+	    margin: auto auto 10px;
+	}
+	body.patient_body a.navbar-brand img {
+	    margin-top: 0px !important;
+	}
+	body {
+	    padding-top: 105px;
+	}
+	.pace-right.reminder_icon {
+	    width: 100%;
+	}
+	.accept-hospital-request .pace-right {
+	    float: none;
+	}
+	.totalpatient-part ul li p {
+		font-size: 12px;
+		line-height: 20px;
+		padding: 0 5px;
+		font-weight: 400;
+	}
+	.totalpatient-part ul li p span {
+	    display: block;
+	}
+
+}
+
+@media screen and (max-width:420px) {
+.totalpatient-part ul li {
+	    display: inline-block;
+	    width: 49.4%;
+	    text-align: center;
+	    margin: auto;
+	    border-left: 1px solid #ddd;
+	    padding:7px 0 0 0;
+	    border-bottom: 1px solid #ddd !important;
+	}
+	.totalpatient-part ul li p {
+	    font-size: 14px;
+	}
+	.totalpatient-part ul li:nth-child(3) {
+	    border-left: 0;
+	}
+	.totalpatient-part ul li:nth-child(3), .totalpatient-part ul li:nth-child(4) {
+	    border-bottom: 0 !important;
+	}
+
+}
+@media screen and (max-width:360px) {
+	
+    body.patient_body {
+	    padding-top:99px;
+	}
+	body.patient_body #sidebar-wrapper {
+	    top:99px;
+	}
+	body.doctor_body #sidebar-wrapper {
+	    top: 54px;
+	}
+	.dowanload-header {
+		margin-left: 4px;
+		background: #660005;
+		padding: 3px 9px;
+		font-size: 9px;
+	}
+	.navbar-custom {
+		padding: 10px 15px 10px;
+	}
+	.navbar-custom .navbar-nav .nav-item .nav-link {
+		font-size: 13px;
+	}
+	.navbar>.container, .navbar>.container-fluid {
+		display: -ms-flexbox;
+		display: block;
+	}
+	a.navbar-brand img {
+		float: left;
+		width: 126px;
+		margin-bottom: 0px;
+	}
+	.dowanload-header i {
+		margin-right: 5px;
+	}
+	.navbar-nav > li {
+		padding: 0 4px;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+		left: -94px;
+	}
+	ul.dropdown-menu.top-userpart.login-menu {
+		width: 280px;
+		padding: 20px;
+		background-color: #FFF;
+		border: 1px solid #eee;
+		left: auto;
+		right: -40px;
+		margin: auto;
+	}
+	a.login-btn {
+		width: 45%;
+		text-align: center;
+		margin: 0 5px;
+	}
+	.doctor_detail_left .doctor-feeandm ul li {
+	    text-align: center;
+	    margin-left:0px;
+	    width: auto;
+	    font-size: 13px;
+	}
+	.reg_group_channge {
+		text-align: center;
+		padding: 0;
+	}
+	.navbar-collapse {
+		margin-top: 0;
+	}
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+	.btdetialpart .pull-left, .btdetialpart .pull-right {
+	    width: 100%;
+	    text-align: left !important;
+	    line-height: 25px;
+	}
+	.pace-part.main-tow h4 {
+	    font-size: 15px;
+	}
+	button.filter-btn.filter_btn_left {
+		top: 105px;
+	}
+	.slider-part.homeslider button.slick-prev.slick-arrow, .slider-part.homeslider button.slick-next.slick-arrow {
+	    top: 29%;
+	}
+	.category-part button.slick-prev.slick-arrow, .category-part button.slick-next.slick-arrow {
+	    top: 32%;
+	}
+	body {
+	    padding-top:98px;
+	}
+
+	.totalpatient-part ul li {
+	    display: inline-block;
+	    width: 49.4%;
+	    text-align: center;
+	    margin: auto;
+	    border-left: 1px solid #ddd;
+	    padding:7px 0 0 0;
+	    border-bottom: 1px solid #ddd !important;
+	}
+	.totalpatient-part ul li p {
+	    font-size: 14px;
+	}
+	.totalpatient-part ul li:nth-child(3) {
+	    border-left: 0;
+	}
+	.totalpatient-part ul li:nth-child(3), .totalpatient-part ul li:nth-child(4) {
+	    border-bottom: 0 !important;
+	}
+
+	
+}

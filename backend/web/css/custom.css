@@ -1,0 +1,600 @@
+body > .header .logo {
+  font-family: inherit;
+}
+body > .header .navbar .nav > li > a > .badge {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 75%;
+}
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .glyphicon,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .fa,
+body .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion {
+  background: none;
+  color: inherit;
+}
+body .user-panel > .info {
+  padding-left: 10px;
+}
+
+.chkbox_blk {background: #f5f5f5; display: inline-block; margin-right: 5px; padding: 10px; margin-bottom:15px;}
+.seprator_box h4 {display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold; font-size: 14px;}
+.tab_contentarea .form-group { margin-bottom:25px; }
+.chkbox_blk.active {background: #d9d6d6;}
+.chkbox_blk label { color:#666; font-size:14px; font-weight:normal; }
+.panel-heading{background-color: #00c0ef; border-color: #00c0ef; color: #fff;}
+.panel-title div.text-right{float: right;}
+.panel-title div.text-right a{color:#fff;}
+#addaddress .field-useraddress-user_id{display: none;}
+
+.info-box-icon .ion{margin: 14px 0px;}
+.info-text{font-size: 14px;font-weight:bold;margin-bottom: 0px;font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+.schedule-form h3{font-size: 14px; font-weight: bold;   margin-top: 0px;}
+.schedule-form .chkbox_blk{margin-bottom: 0px;background: none; margin-left: 0px; padding: 2px 5px; margin-right:0px;}
+.schedule-form .chkbox_blk label{margin-left : 2px; font-size: 13px;}
+.schedule-form input[type="checkbox"]{margin:0px;}
+.section_top{
+  padding-top: 15px;
+  border-top: 1px solid #dddddd;}
+.checkbox-btn label{ margin-left: 10px;  vertical-align: middle;  text-transform: uppercase;}
+.editTopBtn{display: inline-block; float: right;}
+.info-box-values p{margin-bottom:0px;}
+.address_edit_btn{float: right;}
+#update-fee-percent .list-seperate{
+  display: block; padding: 10px 0px; border-top: 1px solid #999;
+}
+
+div#main-js-preloader {
+  background: #ffffff url("../img/preloader.gif") no-repeat scroll center center / 150px auto;
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
+
+/* New css added for add shift design same as front 2-2-2019 */
+
+.ct_newpart {width: 100%; display: inline-block; margin: 30px 0;}
+
+.shift_time_section {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-delete {
+    /* position: absolute; */
+    right: 23px;
+    font-size: 20px;
+}
+
+.ct_newpart .calendra_slider {
+    margin-bottom: -20px;
+}
+.week_sectionmain {
+    position: relative;
+}
+
+.week_sectionmain ul {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.week_sectionmain ul li {
+    width: auto;
+    display: inline-block;
+    margin-right: 15px;
+}
+.week_sectionmain ul li :first-child {
+    margin-right: 0px;
+}
+[type="checkbox"]:checked, [type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.weekDays-selector input {
+    display: none!important;
+}
+
+
+.weekDays-selector input[type=checkbox] + label {
+    display: inline-block;
+    border-radius: 2px;
+    background: #dddddd;
+    height: 50px;
+    width: 50px;
+    margin-right: 3px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 0 !important;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+    background: #3c8dbc;
+    color: #ffffff;
+}
+
+.week_sectionmain .form-group.has-success label {
+    color: #000;
+}
+.add_siftbox {
+    display: inline-block;
+    background-color: #3c8dbc;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.add_siftbox a {
+    color: #FFF;
+    padding: 10px 20px;
+    display: block;
+    line-height: 12px;
+}
+.add_siftbox i {
+    font-size: 15px;
+}
+.bookappoiment-btn {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.bookappoiment-btn button.login-sumbit {
+    background-color: #3c8dbc;
+    border: 0;
+    border-radius: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+.address_attachment .file_area {
+    display: none;
+}
+
+.address_attachment .address_attachment_upload {
+    background-color: #3c8dbc;
+    padding: 2px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color: #FFF;
+}
+
+.address_gallery {
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.address_attachment_upload {
+    cursor: pointer;
+}
+
+.attachfile_area {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 45px;
+    overflow: hidden;
+    padding: 7px 15px;
+    position: relative;
+    width: 100%;
+}
+
+.attachfile_area input {
+    cursor: pointer;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+.address_gallery.gallary_images {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.address_img_attac {
+    position: relative;
+}
+.address_img_attac {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.address_img_attac img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.address_img_attac span.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #eee;
+    width: 30px;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.address_img_attac span.remove:hover {
+    background-color: #a42127;
+    color: #FFF;
+}
+/* My Shifts page design */
+section.mid-content-part {
+    min-height: 650px;
+}
+
+section {
+    padding: 30px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.today-appoimentpart {
+    position: relative;
+}
+
+.today-appoimentpart {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.pace-part.patient-prodetials {
+    border: 1px solid #ddd;
+}
+
+.patient-prodetials {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.pace-part {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.pace-icon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.pace-right.main-second {
+    width: calc(100% - 60px);
+    float: right;
+}
+.pace-right {
+    position: relative;
+}
+
+.pace-right {
+    width: calc(100% - 125px);
+    float: right;
+}
+
+.pace-part h4 {
+    font-size: 17px;
+}
+
+.pace-part p {
+    line-height: 18px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.shift_edit_icon_main.location {
+    position: absolute;
+    right: 23px;
+    top: 5px;
+    font-size: 25px;
+}
+
+.doc-listboxes {
+    border-top: 1px solid #eee;
+}
+.doc-listboxes {
+    width: 100%;
+    display: inline-block;
+    margin-top: 12px;
+    padding-top: 10px;
+}
+.pace-rightpart-show {
+    width: 100%;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.pacemain-list {
+    width: auto;
+    float: left;
+    display: block;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+.pacemain-list li {
+    list-style: none;
+    display: inline-block;
+    width: auto;
+    margin: 10px 5px 10px 5px;
+}
+.pace-list img {
+    width: 40px;
+}
+
+.today-appoimentpart .calender_icon_main {
+    top: 0px;
+    margin-bottom: 10px;
+}
+
+.calender_icon_main.location {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 25px;
+}
+.calender_icon_main {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+/* Today Timing Css */
+
+.today-appoimentpart {
+    position: relative;
+}
+.today-appoimentpart {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.appointment_date_select {
+    width: 50%;
+}
+
+.appointment_calendar {
+    position: relative;
+    margin-bottom: 10px;
+}
+.day_name h3{font-size: 25px;}
+.day_date{font-size:18px;}
+
+.cal_prev_disabled, .cal_next_disabled {
+    opacity: 0.3;
+}
+
+.cal_prev {
+    position: absolute;
+    left: -12px;
+    top: 20px;
+}
+.appointment_calendar ul li {
+    margin: 0px 5px;
+    padding-top: 5px;
+}
+
+.day_name h3 {
+    font-size: 25px;
+}
+
+.today-appoimentpart h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.day_date {
+    font-size: 14px !important;
+}
+
+.cal_next {
+    position: absolute;
+    right: -12px;
+    top: 20px;
+}
+
+.today-appoimentpart .calender_icon_main {
+    top: 0px;
+    margin-bottom: 10px;
+}
+
+.calender_icon_main {
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+#appointment-date-kvdate button.btn.btn-default {
+    background: none!important;
+}
+
+.date .btn.btn-default {
+    width: auto;
+    text-align: right;
+    padding: 0;
+}
+
+.calender_icon_main .date .btn.btn-default img {
+    margin-right: 0;
+}
+
+.calender_icon_main img {
+    width: 30px;
+    margin-right: 18px;
+}
+
+.morning-parttiming {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.main-todbox {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+.moon-cionimg {
+    position: relative;
+    padding-left: 28px;
+}
+
+.moon-cionimg img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20px;
+    max-width: 25px;
+    margin-right: 5px;
+}
+.hospota_add {
+    color: #8e8e8e;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 0;
+}
+.switch input {
+    display: none;
+}
+.slider-toggle.round {
+    border-radius: 34px;
+}
+
+.slider-toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.main-todbox.no-pd {
+    margin-top: 0;
+    
+}
+.main-todbox
+{
+    width: 100%;
+    display: inline-block;
+}
+
+.moon-cionimg p {
+    line-height: 22px;
+}
+.moon-cionimg img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20px;
+    max-width: 25px;
+    margin-right: 5px;
+}
+
+/*07-02-2019*/
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 0;
+}
+
+.switch input {
+    display: none;
+}
+.slider-toggle.round {
+    border-radius: 34px;
+}
+.slider-toggle.round:before {
+    border-radius: 50%;
+}
+.slider-toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider-toggle:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider-toggle {
+    background-color: #4cd964;
+}
+input:focus + .slider-toggle {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider-toggle:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+

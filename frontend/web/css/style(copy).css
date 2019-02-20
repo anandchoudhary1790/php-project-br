@@ -1,0 +1,2413 @@
+body {
+	background: #ffffff none repeat scroll 0 0;
+	color: #7a7a7a;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	padding-top: 66px;
+	overflow-x:hidden;
+	
+}
+*{outline:none !important;}
+html, body {
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+p {
+	color: #7a7a7a;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+a {
+	color: #a42127;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	transition: all .5s ease;
+}
+a:hover {
+	color: #a42127;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+::-webkit-input-placeholder {
+ color: #7a7a7a;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+}
+:-moz-placeholder {
+ color: #7a7a7a;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+}
+::-moz-placeholder {
+ color: #7a7a7a;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+}
+:-ms-input-placeholder {
+ color: #7a7a7a;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+fieldset {
+	border: 0 none;
+	margin: 0 auto;
+	padding: 0;
+}
+section {
+	padding:30px 0;
+	position: relative;
+}
+.no-padding {
+	padding: 0
+}
+section.small_pt {
+	padding-top: 50px;
+}
+section.small_pb {
+	padding-bottom: 50px;
+}
+.lg_pt_20 {
+	padding-top: 20px;
+}
+.lg_pt_30 {
+	padding-top: 30px;
+}
+.lg_pt_40 {
+	padding-top: 40px;
+}
+.lg_pt_50 {
+	padding-top: 50px;
+}
+.lg_pb_20 {
+	padding-bottom: 20px;
+}
+.lg_pb_30 {
+	padding-bottom: 30px;
+}
+.lg_pb_40 {
+	padding-bottom: 40px;
+}
+.lg_pb_50 {
+	padding-bottom: 50px;
+}
+.list_none li {
+	list-style: none;
+}
+input {
+	border: 0;
+	padding: 10px 20px;
+	width: 100%;
+}
+button {
+	border: 0;
+	border-radius: 40px;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: all 0.5s ease 0s;
+}
+button:hover {
+	color: #fff;
+}
+button:focus {
+	outline: none;
+}
+.overflow_hide {
+	overflow: hidden;
+}
+.btn-xl {
+	text-transform: uppercase;
+	padding: 1.5rem 3rem;
+font-size:.9rem;
+	font-weight: 700;
+letter-spacing:.1rem
+}
+.bg-black {
+	background-color: #000!important
+}
+.rounded-pill {
+	border-radius: 5rem
+}
+.navbar-custom {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #a42127;
+}
+.navbar-custom .navbar-brand {
+	text-transform: uppercase;
+	font-size: 1rem;
+letter-spacing:.1rem;
+	font-weight: 700
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0;
+	color: #FFF;
+}
+.navbar-custom li.nav-item {
+	position: relative;
+}
+section.online-appointment {
+	background-color: #f5f8fa;
+}
+section.online-appointment h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
+section.online-appointment h1 span {
+	color: #a42126;
+	font-weight: 600;
+}
+.click-box {
+	display: inline-block;
+	width: 425px;
+	background-color: #f00;
+	padding: 25px 15px;
+	border-radius: 15px;
+	-webkit-transition: all 0.2s ease;
+	transition: all .2s ease;
+}
+.click-box:hover {
+	box-shadow: 10px 10px 30px #ccc;
+	margin-top: -5px;
+}
+section.online-appointment a {
+	display: block;
+}
+.click-box p {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 30px;
+	padding-top: 25px;
+	display: block;
+	margin-bottom: 0;
+}
+.click-box.blur-bg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8ed9e9+0,198ba7+100 */
+	background: #8ed9e9; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #8ed9e9 0%, #198ba7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #8ed9e9 0%, #198ba7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #8ed9e9 0%, #198ba7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ed9e9', endColorstr='#198ba7', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.click-box.green-bg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8fdd77+0,39a011+100 */
+	background: #8fdd77; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #8fdd77 0%, #39a011 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #8fdd77 0%, #39a011 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #8fdd77 0%, #39a011 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fdd77', endColorstr='#39a011', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.category-box {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 15px;
+}
+.category-box p {
+	position: absolute;
+	top: 0;
+	color: #FFF;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	line-height: 160px;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+section.category-part h2 {
+	padding: 35px 0 35px 10px;
+	color: #a42126;
+	font-weight: 300;
+}
+button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+	text-indent: -99999px;
+	position: absolute;
+	top: 34%;
+	z-index: 1015;
+}
+button.slick-prev.slick-arrow {
+    left: -60px;
+    background-image: url(../images/left.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    width: 35px;
+    height: 35px;
+    background-position: center center;
+}
+button.slick-next.slick-arrow {
+    right: -60px;
+    background-image: url(../images/right.png);
+    background-repeat: no-repeat;
+    background-size:10px;
+    width: 35px;
+    height: 35px;
+    background-position: center center;
+}
+ul.mobile-text {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.mobile-text li {
+	position: relative;
+	padding-left: 30px;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #333;
+}
+.mobile-text li i {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+a.app-icon, a.find-btn {
+	margin-top: 30px;
+	display: inline-block !important;
+	font-weight: 300;
+	font-size: 18px;
+}
+a.find-btn {
+	background-color: #a42126;
+	color: #FFF;
+	padding: 15px 25px;
+	border-radius: 5px;
+}
+a.find-btn:hover {
+	background-color: #333;
+}
+footer {
+	padding: 70px 0 0;
+}
+footer h3 {
+    color: #FFF;
+    font-size: 18px;
+}
+.footer-link {
+	margin-bottom: 50px;
+	padding: 0;
+	list-style: none;
+}
+.footer-link li a {
+	color: #FFF;
+	font-weight: 300;
+	font-size: 14px;
+	opacity: 0.7;
+	margin-bottom: 10px;
+}
+.footer-link li a:hover {
+	color: #FFF;
+	opacity: 1;
+}
+.copy-part {
+	background-color: #a42127;
+	line-height: 60px;
+	text-align: center;
+}
+.copy-part p {
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+/************* css start by vijay ************/
+.topheader-searchbar {
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.navbar-brand {
+	float: left;
+	height: auto;
+	padding:0px 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+.inputbar {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	float: left;
+}
+.inputbar input {
+	padding: 10px 30px;
+	width: 480px;
+	border: 0;
+	height:35px;
+	font-size: 13px;
+    border-radius: 20px;
+}
+.search-icon {
+	position: absolute;
+	top:2px;
+	left: 10px;
+	display: block;
+}
+.dowanload-header {
+	width: auto;
+	display: inline-block;
+	margin-left: 20px;
+	background: #660005;
+	padding:2px 25px 3px;
+    border-radius: 20px;
+	color: #fff;
+}
+.dowanload-header i {
+	font-size: 25px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.top-userpart {
+	padding: 15px;
+}
+.top-userpart li {
+    border-bottom: 1px solid #660005;
+    padding: 0;
+    display: block;
+}
+.top-userpart li:last-child {
+	border-bottom: 0;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	right: 0;
+	width: 240px;
+	left: auto;
+	top: 79px;
+	border: 0;
+	box-shadow: none;
+	background-color: #a42127;
+	padding: 0;
+}
+.dropdown-menu > li > a {
+	display: block;
+	padding: 0 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 50px;
+	color: #FFF;
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: 300;
+}
+/* /Sign Up part */
+
+
+.signup-part input[type="text"], .signup-part select, .signup-part input[type="password"] {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	background-color: #FFFF;
+	padding: 10px 15px;
+	width: 100%;
+	line-height: 55px;
+	height: 55px;
+	font-size: 16px;
+}
+.signup-part button.submit_btn {
+    display: inline-block;
+    width: 180px;
+    background-color: #a42127;
+    color: #FFF;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+	border-radius: 25px;
+}
+.signup-part button.submit_btn:hover {
+	background-color: #333;
+}
+select {
+	-webkit-appearance: none; /*webkit browsers */
+	-moz-appearance: none; /*Firefox */
+	appearance: none; /* modern browsers */
+	-webkit-border-radius: 0; /*webkit browsers */
+	-moz-border-radius: 0;
+}
+select {
+	-moz-appearance: none;
+	background: #fff url("../images/select_arrow1.png") no-repeat scroll 96% 50%;
+	padding: 0 15px !important;
+	border: 1px solid #1px solid #ccc !important;
+}
+.file.btn.btn-lg {
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 100%;
+}
+.file.btn.btn-lg input {
+	padding: 0;
+}
+form#login-form {
+	display: block;
+	width: 100%;
+}
+/************ css start ************/
+
+[type="checkbox"]:checked, [type="checkbox"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+}
+[type="checkbox"]:checked + label, [type="checkbox"]:not(:checked) + label {
+	position: relative;
+	padding-left: 28px;
+	cursor: pointer;
+	line-height: 18px;
+	display: inline-block;
+	color: #666;
+}
+[type="checkbox"]:checked + label:before, [type="checkbox"]:not(:checked) + label:before {
+	border-radius: 2px;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+}
+[type="checkbox"]:checked + label:after, [type="checkbox"]:not(:checked) + label:after {
+	content: '';
+	width: 6px;
+	height: 12px;
+	border: solid #838383;
+	border-width: 0 2px 2px 0;
+	position: absolute;
+	top: 2px;
+	left: 6px;
+	transform: rotate(45deg);
+	webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+[type="checkbox"]:not(:checked) + label:after {
+	opacity: 0;
+}
+[type="checkbox"]:checked + label:after {
+	opacity: 1;
+}
+.overall-part {
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	padding: 10px;
+}
+.multiple-check ul li {
+	list-style: none;
+	width: 48%;
+	display: inline-block;
+}
+.add-siftpart {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+.edit-icon {
+	position: absolute;
+	right: 15px;
+	top: 14px;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+.addnew {
+	margin: 25px 0;
+	font-size: 18px;
+}
+.week-list li {
+	list-style: none;
+	width: auto;
+	float: left;
+	display: inline-block;
+	margin-right: 21px;
+	margin-bottom: 25px;
+}
+.doctoe_listing_one {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #dcdcdc;
+	padding: 15px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+.doctor_detail_left {
+	float: left;
+	width: 100%;
+}
+.doctor_detail_right {
+	float: right;
+	width: 25%;
+}
+.image_doc {
+    float: left;
+    width: 80px;
+}
+.doc_specify {
+    float: right;
+    width: calc(100% - 95px);
+}
+.doc_specify > p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.doc_specify > p.text {
+    font-weight:300;
+}
+.doctor_detail_right > ul {
+	list-style-type: none;/*border-bottom: 1px dashed #ACACAC;
+  padding-bottom: 15px;
+  margin-bottom: 15px;*/
+}
+.doctor_detail_right {
+	float: right;
+	margin-left: 2%;
+	width: 23%;
+}
+.doctor_detail_right ul li a {
+	color: #7a7a7a;
+}
+.doctor_detail_right li {
+	font-size: 13px;
+}
+.button_bottom_c {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+.button_bottom_c a {
+	border: 1px solid #CCC;
+	padding: 5px 8px;
+	margin-right: 10px;
+}
+.doc_specify p span {
+	background-color: #ECECEC;
+	padding: 0px 6px;
+	margin-right: 5px;
+	display: inline-block;
+	border-radius: 4px;
+}
+/******  18 sept 2018 css start  ******/
+
+.search-boxicon {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.search-iconmain {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    display: block;
+}
+.search-iconmain i {
+	font-size: 23px;
+	color: #c3c3c3;
+}
+.search-boxicon input[type="text"] {
+	padding: 0 45px;
+}
+.pace-part {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom:20px;
+}
+.pace-left {
+	width: 100px;
+	height: 100px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+}
+.pace-right {
+	width: calc(100% - 125px);
+	float: right;
+}
+.ratingpart {
+	font-size: 18px;
+	color: #fdb551;
+}
+.pace-rightpart-show {
+	width: 100%;
+	display: inline-block;
+	margin:0px auto;
+}
+.pacemain-list {
+	width: auto;
+	float: left;
+	display: block;
+}
+.pacemain-list li {
+	list-style: none;
+	display: inline-block;
+	width: auto;
+	margin: 10px 5px 10px 5px;
+}
+.showon-map {
+    width: 100%;
+    margin-top: -6px;
+}
+.showon-map a, .away_col {
+	color: #a42127;
+}
+
+.hospitals-detailspt .resp-tab-active {
+	background: #a42226 !important;
+	border: 0 !important;
+	color: #fff;
+	border-bottom: 1px solid #a42226;
+	border-radius: 25px;
+}
+.hospitals-detailspt ul.resp-tabs-list {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.hospitals-detailspt .resp-tab-content {
+	border: 0;
+}
+b, strong {
+	color: #000;
+}
+.hospitals-detailspt {
+	width: 100%;
+	display: inline-block;
+	margin-top:0px;
+}
+.detial-imgmain {
+    width: 50px;
+    background: #eee;
+    display: flex;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.detailmain-box {
+    border-radius: 100%;
+    border: 1px solid #eee;
+    padding: 5px;
+    display: inline-block;
+}
+.detial-imgmain:hover, .detailmain-box.active .detial-imgmain {
+    background: #89040a;
+}
+.detailmain-box:hover, .detailmain-box:focus, .detailmain-box.active {
+	border:1px solid #89040a;
+}
+ li {
+	list-style: none;
+	display: inline-block;
+}
+.hos-lisdetial li {
+	margin-left: 15px;
+}
+.hos-lisdetial li:first-child {
+	margin-left: 0px;
+}
+.hos-lisdetial {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+}
+.doc-listboxes {
+    width: 100%;
+    display: inline-block;
+    margin-top: 12px;
+    padding-top: 10px;
+}
+.bookappoiment-btn {
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+	text-align: center;
+}
+.bookappoiment-btn input {
+	width: 50%;
+	background: #a42127;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
+.pace-part.main-tow {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+}
+.detial-imgmain img {
+	text-align: center;
+	margin: auto;
+	display: table-cell !important;
+	width:30px;
+}
+/*.hospitals-detailspt button.slick-prev.slick-arrow {display:none !important;}
+.hospitals-detailspt button.slick-next.slick-arrow {display:none !important;} */
+.hos-discription {
+	text-align: center;
+	margin-top: 10px;
+}
+/********** radio btn css start *******/
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+	position: absolute;
+	left: -9999px;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+	position: relative;
+	padding-left: 28px;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 20px;
+	display: inline-block;
+	color: #666;
+}
+[type="radio"]:checked + label::before, [type="radio"]:not(:checked) + label::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #a42226;
+	border-radius: 100%;
+	background: #fff;
+}
+[type="radio"]:not(:checked) + label::after {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+[type="radio"]:checked + label::after, [type="radio"]:not(:checked) + label::after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: #a42226;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	border-radius: 100%;
+	webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.checkservices-list span {
+	width: 100%;
+	display: inline-block;
+}
+.hospital-search .selectpicker {
+	width: 20%;
+	float: right;
+}
+.hospital-search .search-boxicon {
+	width: 70%;
+	float: left;
+	display: inline-block;
+}
+.btn-info {
+	color: #fff;
+	background-color: #521013;
+	border-color: #521013;
+}
+.btn-info:hover {
+	color: #fff;
+	background-color: #800D13;
+	border-color: #521013;
+}
+.listhospital {
+	padding-bottom: 20px;
+}
+.hos-lr-part {
+	padding: 0px 20px;
+}
+.all-listhospital {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.all-listhospital:last-child {
+	border: 0;
+}
+.pace-icon {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+.pace-icon i {
+	font-size: 40px;
+	color: #000;
+}
+.pace-right.main-second {
+	width: calc(100% - 70px);
+	float: right;
+}
+.patient-prodetials {
+	border: 0;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+.color-theme-text h6 {
+	color: #a42226;
+}
+.book-greenbtn {
+	background: #1dcb3a;
+	border-radius: 3px;
+}
+.likesicon-part {
+	position: absolute;
+	right: 18px;
+	top: 0;
+}
+.likesicon-part i {
+	font-size: 24px;
+	color: #000;
+	margin-left: 15px;
+}
+.red-like i {
+	color: #a42226
+}
+.pace-list img {
+	width:40px;
+}
+.slick-initialized .slick-slide {
+	display: block;
+	text-align: center;
+}
+/* / 19 Sep */
+
+
+.signup-part [type=reset], .signup-part [type=submit], .signup-part button, .signup-part [type=button] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    border: 0;
+    padding: 5px 15px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 300;
+}
+.signup-part [type=reset]:hover, .signup-part [type=submit]:hover, .signup-part button:hover, .signup-part [type=button]:hover {
+	background-color: #a42127;
+	color: #FFF;
+}
+ul.footer-link li {
+	display: block;
+}
+.doc-listboxes {
+	border-top: 1px solid #eee;
+}
+.appointment_icon img {
+	width: 25px;
+}
+.next_appointment a {
+	color: #a42226;
+	font-size:14px;
+	margin-top: 0px;
+	display: block;
+}
+.next_appointment a:hover {
+	color: #333;
+}
+.cancel_btn {
+	background-color: #fff2f2 !important;
+	color: #a42226 !important;
+}
+.cancel_btn:hover {
+	background-color: #a42226 !important;
+	color: #FFF !important;
+}
+.appointment_part .resp-tabs-list li {
+    background-color: #eee !important;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 55px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.appointment_part .resp-tabs-list li.resp-tab-active {
+    border: 0 !important;
+    margin-bottom: 0;
+    padding: 8px 55px 8px 55px !important;
+    color: #a42226;
+}
+.appointment_part .resp-tab-content {
+    border: 0;
+    border-top-color: transparent;
+}
+.appointment_part .pace-part {
+    padding: 10px!important;
+}
+.pace-right {
+	position: relative;
+}
+.appointment_details .pace-part.main-tow {
+	border: 1px solid #eee;
+	border-radius: 15px;
+	margin-bottom: 5px;
+}
+.today-appoimentpart p {
+    font-size: 18px;
+}
+a.call_btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+a.call_btn img {
+	width: 72px;
+}
+a.btn.rebook_green_btn {
+	background-color: #79c939;
+	color: #FFF;
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-right: 10px;
+	display: inline-block;
+}
+a.btn.cancel_red_btn {
+	background-color: #a42127;
+	color: #FFF;
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-right: 10px;
+	display: inline-block;
+}
+a.btn.rebook_green_btn:hover, a.btn.cancel_red_btn:hover {
+	background-color: #333;
+}
+.close {
+	width: 54px !important;
+}
+.locat_text a strong {
+	color: #a42127;
+}
+i.locat_icon img {
+	width: 20px;
+	margin-left: 5px;
+}
+.check_icon img {
+	width: 30px;
+	margin-top: 20px;
+}
+.price_text {
+	font-size: 20px;
+}
+.token_appointment {
+    background-color: #a42127;
+    padding-bottom: 15px;
+    color: #FFF !important;
+    padding: 5px 15px;
+}
+.token_appointment p {
+	color: #FFF;
+	font-size: 18px;
+}
+.token_appointment .price_text strong {
+	font-size: 30px;
+	color: #FFF;
+}
+.user_profile_img {
+	margin-bottom:25px;
+	text-align: center;
+}
+.user_profile_img img {
+	width:80px;
+	border-radius: 50%;
+}
+.imagediv {
+	float: left;
+	margin-top: 50px;
+}
+.imagediv .showonhover {
+	background: red;
+	padding: 20px;
+	opacity: 0.9;
+	color: white;
+	width: 100px;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+.gender_part {
+	margin-bottom: 15px;
+}
+.gender_part label {
+	margin-bottom: 0;
+}
+.gender_part span {
+	margin-right: 25px;
+}
+/********  19 sept *********/
+
+.speciality-part {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.speleft-part {
+    width: 36px;
+    height: 37px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    background-color: #a42127;
+    border-radius: 50%;
+}
+.speright-part {
+    width: calc(100% - 55px);
+    float: right;
+    vertical-align: middle;
+    margin-top:5px;
+    font-size: 20px;
+}
+.speciality-part:hover {
+    background-color: #fff7f7;
+	box-shadow:5px 5px 5px #eee;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;	
+}
+.speleft-part::before {
+    content: "";
+    position: absolute;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+    top: -7px;
+    left: 8px;
+}
+.speright-part h6 {
+    font-size:20px;
+    font-weight: 400;
+}
+.youare-text {
+    background: #73de2c;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.workingpart {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #ddd;
+	padding-bottom:10px;
+	margin-top:10px;
+}
+.workingpart h5 {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+}
+.roundone {
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #a42127;
+    display: inline-block;
+    padding: 2px;
+    color: #fff;
+    font-weight: 600;
+}
+.time-bg {
+	background: #fff2f2;
+	padding: 9px 15px;
+	color: #ff0000;
+}
+.confirm-theme {
+	background: #a42226;
+	width: auto;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+	padding: 8px 20px;
+}
+.appoiment-form-part {
+	width: 100%;
+	display: inline-block;
+	margin:0;
+}
+a.roundone:hover {
+	color: #fff;
+}
+.btdetialpart {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid #ddd;
+	padding-bottom:2px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.reminder-right {
+	width:90px;
+	height: 90px;
+	overflow: hidden;
+	float: right;
+}
+.reminder-left {
+	width: auto;
+	float: left;
+	display: inline-block;
+}
+.text-reminder {
+	font-size: 22px;
+	font-weight: 500;
+}
+.success-reminderpart {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin:10px auto;
+}
+.reminderic-success {
+    width: 50px;
+    height: 50px;
+    background: #33d27b;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 5px auto 12px;
+}
+.allover-reminderpart {
+    padding: 0 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* 20 Sep DJ */
+
+
+
+.appointment_part.patient_profile .pace-part.main-tow.user-pro {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 25px !important;
+}
+.doctoe_row {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+button.view_pro_appoint {
+	background-color: #666;
+}
+.appointment_part.patient_profile .pace-part {
+	padding-top: 20px !important;
+}
+.record_file_img {
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.record_file_img img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+.record_file_img span {
+	display: block;
+	text-align: center;
+	background-color: #eee;
+	margin: 10px 0 0;
+	line-height: 44px;
+	border-radius: 0 0 5px 5px;
+}
+.progress-bar-danger {
+	background-color: #a42126;
+}
+.progress {
+	margin-top: 10px;
+}
+.resp-tabs-list i {
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    margin-bottom: 25px;
+    margin: auto;
+}
+.resp-tabs-list i span {
+	background-repeat: no-repeat;
+	display:block;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	background-image: url(../images/tab_icon.png);
+	background-repeat: no-repeat;
+	text-align:center;
+}
+.resp-tabs-list i span.icon1, .resp-tabs-list i span.icon2, .resp-tabs-list i span.icon3, .resp-tabs-list i span.icon4 {
+    width: 30px;
+    height: 25px;
+    margin-top:6px;
+}
+.resp-tabs-list i span.icon1 {
+	background-position:0px 1px;
+}
+.resp-tabs-list i:hover span.icon1 {
+	background-position:0px -25px;
+}
+.resp-tabs-list i span.icon2 {
+	background-position:-58px 0px;
+}
+.resp-tabs-list i:hover span.icon2 {
+	background-position:-58px -25px;
+}
+.resp-tabs-list i span.icon3 {
+	background-position:-115px 0px;
+}
+.resp-tabs-list i:hover span.icon3 {
+	background-position:-115px -24px;
+}
+.resp-tabs-list i span.icon4 {
+	background-position:-177px 0px;
+}
+.resp-tabs-list i:hover span.icon4 {
+	background-position:-177px -25px;
+}
+
+.appointment_part.patient_profile .resp-tabs-list li {
+    padding: 4px 25px;
+}
+.appointment_part.patient_profile .resp-tabs-list li.resp-tab-active {
+    padding:4px 25px 4px 25px !important;
+}
+.patient_profile li.resp-tab-active span.icon1 {
+	background-position:0px -25px;
+}
+.patient_profile li.resp-tab-active span.icon2 {
+	background-position:-58px -25px;
+}
+.patient_profile li.resp-tab-active span.icon3 {
+	background-position:-115px -24px;
+}
+.patient_profile li.resp-tab-active span.icon4 {
+	background-position:-177px -25px;
+}
+
+
+ul.doctor_reminder {
+    padding:0;
+}
+ul.doctor_reminder li {
+    display: inline-block;
+    width: 34%;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+ul.doctor_reminder li img {
+	width:20px;
+	margin-right:10px;
+}
+.reminder_icon i.fa.fa-edit, .reminder_icon i.fa.fa-trash {
+    font-size: 16px;
+    margin-left: 10px;
+	color:#a42127;
+}
+
+
+.patient_reminder .pace-part {
+    padding: 20px 20px 0;
+}
+
+/********** 25 sept css start  *******/
+.doc-timingslot {
+    background: #454545;
+    padding: 10px;
+}
+.doc-timingslot a {color:#969696;}
+.doc-timingslot ul li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: auto;
+}
+
+.doc-timingslot ul li.active a {color:#fff;}
+.token {
+    width: 80px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+.token-rightdoctor {
+    width: calc(100% - 95px);
+    float: right;
+	display:inline-block;
+	padding: 10px 0 5px;
+	
+} 
+
+.tockenimg-right {
+    width: 80px;
+    height: 85px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.token_allover {width:100%; display:inline-block; margin:10px auto; border:1px solid #e6e6e6;}
+.time-btnpart {
+    border-radius: 5px;
+    color: #b4b4b4;
+    display: inline-block;
+    font-size: 11px;
+}
+.token-timingdoc h3 {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.token h4 {
+    line-height: 80px;
+    border-right: 1px solid #e6e6e6;
+    color: #d8d8d8;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.token-timingdoc {
+    width: calc(100% - 110px);
+    display: inline-block;
+    vertical-align: middle;
+}
+.token-timingdoc.avail h3 {
+    color: #78cc5b;
+}
+.token.avail h4 {
+    color: #7fd163;
+}
+.token-timingdoc.emergency h3 {
+    color: #a42127;
+}
+
+.doc-boxespart-book {
+    width: 100%;
+    display: inline-block;
+    margin:0px;
+}
+.token-timingdoc a {
+    background: #f3f3f3;
+    padding: 0 10px;
+    margin: 4px 0;
+}
+
+.range-slider {
+    width: 70%;
+    display: inline-block;
+}
+
+
+.doctor-educaation-details p {
+    color: #5D5D5D;
+}
+
+
+.doctor-educaation-details p span {
+    color: #000;
+}
+
+.pull-right.notification-cionmain i {
+    color: #a4a4a4;
+}
+
+/*****  accordian css Vij *****/
+.mainaccoridan {width:100%; display:inline-block; margin:20px 0 10px;}
+.mainaccoridan .panel-heading   {background:#f2f2f2; padding:16px 10px 5px; margin-bottom:10px; cursor:pointer; padding-left: 50px; position:relative;}
+.mainaccoridan .panel-heading h5 {font-size:14px;}
+.mainaccoridan .panel-heading p { color: #000;}
+.proicon-docpart {width: 30px;height: 30px;display: inline-block; position: absolute; left: 12px; top: 8px; overflow:hidden;}
+.proicon-docpart img { width: 22px !important; display: inline-block;}
+.mainaccoridan .panel-body { border: 1px solid #ddd; padding: 12px; margin-bottom: 10px;}
+.appointment_details small {color:#999; font-size:14px;}
+
+
+.moon-cionimg img {
+    max-width: 25px;
+    width: 100%;
+    margin-right: 5px;
+}
+.morning-parttiming {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+	margin-top: 20px;
+}
+.main-todbox {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/******* toggle button ******/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-bottom: 0;
+}
+.moon-cionimg p {
+    line-height: 22px;
+}
+
+.switch input {display:none;}
+
+.slider-toggle {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-toggle:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider-toggle {
+  background-color: #4cd964;
+}
+
+input:focus + .slider-toggle {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider-toggle:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider-toggle.round {
+  border-radius: 34px;
+}
+
+.slider-toggle.round:before {
+  border-radius: 50%;
+}
+
+/****************  End  *********/
+
+.color-texttheme {color:#a42126;}
+.icon-border {cursor:pointer;}
+.icon-border i {border-bottom:2px solid; font-size: 22px;}
+.bookinput:hover {background: #8c161b !important;}
+.address-doc {background:#a42226 !important; margin:10px 0;}
+.address-doc a { color: #fff;}
+
+.totalpatient-part ul li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: auto;
+    border-left: 1px solid #ddd;
+	padding:20px 0;
+}
+.totalpatient-part ul li:first-child {border:0;}
+.totalpatient-part {
+    background: #FFF;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+	border-radius: 15px;
+}
+.doctormain-detailspt {width:100%; display:inline-block; margin:auto;}
+.number-partdoc {font-size:13px;}
+.doc-historyicon { width: 100%; display: inline-block; text-align: center;}
+.doc-historyicon i { font-size: 26px; margin-top: 15px; color: #9c9c9c;}
+.input-borderbt input {border:0; border-bottom:1px solid #ddd;}
+.input-borderbt {width:100%; display:inline-block; margin-top:15px;}
+.hos-clinics {
+    width: 100px;
+    height: 95px;
+    border-radius: 10px;
+}
+.mianclin-bor i {
+    border-bottom: 2px solid;
+    font-size: 22px;
+    color: #939393;
+}
+.doc-feesedit {
+    width: 100%;
+    display: inline-block;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+	margin-bottom:20px;
+}
+.cusnet h4 {
+    color: #aeaeae;
+    font-size: 20px;
+}
+.docfee-editbox {
+    width: 100%;
+    display: inline-block;
+	
+}
+
+.fee-ruppepart {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+
+/***********/
+
+.token1 {width: 118px;background: #a42126;height: auto;overflow: hidden;text-align: center;float: left;}
+.token-rightdoctor1 {width: calc(100% - 165px);float: right;display: inline-block;padding: 10px 0 5px;}
+.token1 h4 {line-height: 53px;border-right:0; color: #ffffff;font-size: 28px;margin-bottom: 0;}
+.tockenimg-right {width:60px;height:65px;overflow: hidden;display: inline-block;margin-right: 20px;vertical-align: middle;}
+.token-timingdoc1 {width: calc(100% - 110px);display: inline-block;vertical-align: middle;}
+.token-timingdoc1 h3 {color: #000;font-weight: 500;font-size: 18px;margin-bottom: 0;}
+.time-btnpart1 {border-radius: 5px;color: #b4b4b4;display: inline-block;font-size: 15px;}
+.first_textB {font-weight: 500;padding-right: 3px;}
+.add_edit{padding-bottom:20px;}
+.doc-timingslot {padding: 10px;  border: 1px solid #ddd; margin-bottom: 20px; background:none; border-radius: 15px;}
+.doc-timingslot ul li {display: inline-block;width: 32%;text-align: center;margin: auto;}
+.doc-timingslot ul li.active a {color: #000;}
+.doc-timingslot a {    color: #969696;}
+.doc-timingslot ul li {display: inline-block;width: 32%;text-align: center;margin: auto;}
+.startics_date{margin-top:0px;}
+.time_slot{margin-bottom:15px;}
+.token_allover {width: 100%;display: inline-block;margin:auto;border: 1px solid #e6e6e6; border-radius: 40px;}
+.token_text {padding-top: 16px;color: #fff;font-size: 17px;margin-bottom: 0px;}
+.roll_box .search-boxicon {width: 89%;float: left;display: inline-block;}
+.roll_box .calender_icon {text-align: right;width: 6%;float: right;}
+.reminderic-success1{ margin: 25px auto; line-height: 70px;}
+.morning-parttiming {width: 100%;display: inline-block;border-bottom: 1px solid #ddd;padding-bottom:0px; margin-top:0px;}
+.main-todbox {width: 100%;display: inline-block;margin-top: 10px;}
+.moon-cionimg img {max-width: 25px;width: 100%;margin-right: 5px;}
+.time_left {float: left;width: 80%;}
+.hospota_add {
+    color: #8e8e8e;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+}
+a.clander_icon {width: 33px;display: inline-block;margin-left: 7px;cursor:pointer;}
+.time_edit_popup .card .card-header .font-thin i{float:right; padding-top: 4px;}
+.time_edit_popup .card .card-header{background:#a42226;    padding: 11px;}
+.time_edit_popup .card .card-header h5{text-transform:  initial !important;color: #fff;font-weight: normal;font-size: 16px;}
+.time_edit_popup .card .form-control{border: 1px solid #ccc;border-radius: 4px;margin-bottom: 15px;background-color: #FFFF;padding: 10px 15px;width: 100%;line-height: 55px;height: 55px !important;font-size: 16px;}
+.time_edit_popup .modal-dialog{max-width: 438px;}
+.time_edit_popup .card .grey_btn{background:#3a3a3a; color:#fff; height: 55px !important; width:100%;}
+.fees_doctor .form-group p{color:#000;}
+.popup_icon {width: 25px; padding-right:5px;}
+.fees_doctor{border: 1px solid #eee; padding:20px; border-radius:15px;margin-top: 0px; margin-bottom:30px;}
+.cont_had{font-size:18px; color: #151515; font-weight: 500;}
+.blar_bg{background:#ffd1d1;border: 1px solid #fff;}
+.blar_bg .btdetialpart {border-bottom: 1px solid #a9a9a9;}
+.hospit_fees .add_timig{margin-bottom:20px; background:#efeff4;}
+.hospit_fees .add_timig ul li a {color: #000;}
+.ea_icon ul li{display:inline-block; margin-left:15px;}
+.ea_icon {
+    padding-right: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ea_icon ul li a i{color:#bf4485;}
+
+
+/******* hospital css start  ******/
+
+.hospitals-detailspt button.slick-prev.slick-arrow {left:0px;}
+.hospitals-detailspt button.slick-next.slick-arrow {right:0px;}
+.border-not {border:0;}
+.margin-not {margin:0;}
+.hosptionhos-profileedit {width:100%; display:inline-block; margin-top:20px; border:1px solid #eee; padding:15px;}
+.discri_edithost p {
+    font-size: 16px;
+	color:#000;
+
+}
+.discri_edithost span {
+    font-size: 14px;
+    color: #717171;
+    margin-left: 20px;
+}
+.mydoctorpart .fa.fa-star {
+    color: #f2b812;
+}
+.dr_name ul li{text-align:left;}
+
+
+
+
+/*25 Sep - 26 Sep*/
+
+.appointment_time_part {
+	margin:50px 0 0;
+}
+.appointment_time_part h4 {
+	text-align:center;
+	margin-bottom:45px;
+}
+.time_box {
+    position: relative;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+.timing_part .tag {
+    position: absolute;
+    line-height: 42px;
+}
+.timing_part .tag i {
+	margin-right:10px;
+}
+.timing_part ul {
+    padding-left: 150px;
+}
+.time_box ul li {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #a42127;
+    margin-bottom: 10px;
+}
+.time_box ul li:hover {
+    border: 1px solid #a42127;
+	color:#FFF;
+	background-color: #a42127;
+}
+.date_time_scroll li a {
+    color: #999;
+    font-size: 17px;
+    padding-top: 28px;
+    display: block;
+}
+.date_time_scroll li a:hover {
+    color: #a42127;
+}
+.date_time_scroll button.slick-prev.slick-arrow {
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.date_time_scroll button.slick-next.slick-arrow {
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+.date_time_scroll li a {
+    color: #999;
+    font-size: 17px;
+    padding-top: 28px;
+    display: block;
+}
+
+
+.pace-part.main-tow a {
+    float: right;
+    color: #666;
+}
+
+.time_black_row {
+    background-color: #454545;
+    padding: 10px 18px;
+	margin-bottom:25px;
+	border-radius:5px;
+}
+.text-gray {
+    color: #999;
+}
+ul.doctor_reminder.doctor_reminder_edit li {
+    position: relative;
+}
+ul.doctor_reminder.doctor_reminder_edit li i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+ul.doctor_reminder.doctor_reminder_edit li input {
+	border-bottom:1px solid #eee;
+	padding-left:25px;
+}
+
+
+section.mid-content-part h2 {
+    font-size: 22px;
+    padding-bottom:0px;
+}
+.signup-part input[type="text"], .signup-part select, .signup-part input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFF;
+    padding: 10px 15px;
+    width: 100%;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+}
+.appointment_details h4 {
+    font-size: 20px;
+}
+.signup-part [type=submit], .signup-part [type=button] {
+    width: auto;
+    display: inline-block;
+}
+.reminder-ctpart h4 {
+    font-size: 18px;
+}
+.pace-part.main-tow h4 {
+    font-size:16px;
+}
+
+element.style {
+}
+.main-todbox.no-pd {
+    margin-top: 0;
+}
+
+.signup-part.roll_box .resp-tab-content {
+    display: none;
+    padding: 0;
+}
+
+.search-boxicon input[type="text"] {
+    padding: 0px 0 0 45px !important;
+}
+
+
+
+/************ new css start ******/
+.docnew-tab ul li {
+    width: 32.9%;
+    text-align: center;
+    margin: auto;
+	border-radius: 55px;
+}
+.docnew-tab ul {
+    border-bottom: 0 !important;
+}
+h3.orange_text {
+    color: orange !important;
+}
+
+.hospitals-detailspt .resp-tab-content {padding:0;}
+.token.emergency h4 {color:#a42127;}
+.today-appoimentpart { width: 100%; display: inline-block; text-align: center;  }
+.calender_icon_main img { width: 30px;  margin-right: 18px;}
+.date-maintable table {width:100%; text-align:center;}
+.mt-top25 { margin-top:25px; }
+.today-appoimentpart { position: relative;}
+.calender_icon_main {  position: absolute;  right: 0;  top: 15px;}
+.totalpatient-part p { font-weight: 500;}
+.doctor-feeandm ul li {
+    width: auto;
+    margin-left: 20px;
+}
+.doctor-feeandm ul li:first-child {margin-left:0;}
+.doctor-feeandm {
+    width: 100%;
+    display: inline-block;
+}
+.new_bookbtn {width:100%; display:inline-block; text-align:center; background:#a42127; color:#fff; border-radius:20px;}
+.new_bookbtn:hover {color:#fff;}
+.yellow-star{color:#eec471;}
+.new_confirmbtn {width:100%; display:inline-block; margin:20px 0; text-align:center;}
+
+/******* 04/09/2018 *******/
+.dba_scrollpart { height:450px; overflow: auto; overflow-x: hidden;}
+.repl-foracpart {
+    width: 100%;
+    display: inline-block;
+	margin-top:30px;
+}
+.list-mainboxe {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+.datacontent-et {
+    width: calc(100% - 50px);
+    float: right;
+}
+.repl-foracpart ul li {
+    width: 100%;
+    display: inline-block;
+    float: left !important;
+    background: #f2f2f2;
+    padding: 10px 20px 0px;
+	margin-bottom: 10px;
+}
+.repl-foracpart ul li a {
+    width: 100%;
+}
+
+.list-mainboxe img {
+    width: 100%;
+    height: 100%;
+	display: block;
+}
+
+.btn.btn-default {
+    background: #98171C;
+}
+.tablist-diserp ul li {
+    width: 48.5%;
+    text-align: center;
+    border-radius: 45px;
+}
+.tablist-diserp ul {
+    border-bottom: 0 !important;
+}
+
+.btn-centerpart {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.margin0 {margin:0;}
+.appointment_details {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.tablist-diserpthree ul {
+    border-bottom: 0 !important;
+}
+.tablist-diserpthree ul li {
+    width: 32.7%;
+    text-align: center;
+	border-radius: 50px;
+}
+.hospitalall-listhe .pace-part {
+    width: 100%;
+    display: inline-block;
+    min-height: 170px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.hospitalall-listhe h4 {
+    font-size: 20px;
+}
+.doc-timingslot ul li.active p {
+    color: #000;
+}
+.doc-timingslot ul li p span {
+    font-weight: normal;
+    font-size: 12px;
+    width: 100%;
+    display: inline-block;
+}
+.doc-timingslot ul li p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.newmain-stpt {width:100% !important;}
+
+
+.tablist-diserpthreemt ul {
+    border-bottom: 0 !important;
+}
+.tablist-diserpthreemt ul li {
+    width: 31.5%;
+    text-align: center;
+}
+
+
+.doctforstab ul {
+    border-bottom: 0 !important;
+}
+.doctforstab ul li {
+    width: 24%;
+    text-align: center;
+    border-radius: 50px;
+}
+.mt-top25p {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+}
+.navbar-brand img {
+    width: 190px;
+}
+/******popup login *****/
+.login-section .modal {z-index:99999999999999;}
+.login-section .modal-dialog {margin-top:40px; background:#fff; z-index:9999999999999999999999;}
+.login-section .login-sumbit {width:100%; display:inline-block; text-align:center;  background:#a42127; margin:25px 0px;}
+.login-section .modal-header .close { color:#fff;}
+.login-section .modal-header h3 span {font-size:18px;}
+.login-section .modal-header {background:#a42127; color:#fff;}
+.login-section .modal-header h3 {color:#fff;  font-size: 24px;}
+.close {opacity:1;}
+
+.register-section .modal {z-index:99999999999999;}
+.register-section .modal-dialog {margin-top:40px; background:#fff; }
+.register-section .login-sumbit {width:100%; display:inline-block; text-align:center; background:#a42127; margin:25px 0px;}
+.register-section .modal-header .close { color:#fff;}
+.register-section .modal-header h3 span {font-size:18px;}
+.register-section .modal-header {background:#a42127; color:#fff;}
+.register-section select {width:100%; display:inline-block;  height: 40px !important;}
+.modal-img { width:100%; display:inline-block; margin:15px 0px; text-align:center;}
+.login-sumbit .button.iq-mb-100 {color:#fff;}
+.register-section .modal-header h3 {color:#fff;  font-size: 24px;}
+.register-section h4.modal-title {color:#fff;}
+.register-section .modal-dialog { max-width: 600px;}
+.register-section .modal-body {padding:10px 20px !important;}
+select  { height: 40px !important; }
+.form-control {height:40px !important; font-size: 14px;}
+
+/*********/
+.image img { width: 100%;}
+.image { width: 100%; display: inline-block;}
+.category-box:hover img { transform: scale(1.1); transition: transform .5s !important;}
+.category-box {transition: transform .5s !important;}
+.appscerrnpart-slider {
+    background: url(../images/mobile-bg.png) no-repeat center;
+    width: 100%;
+    display: inline-block;
+    min-height: 540px;
+
+}
+.my-screenshots {
+    margin-top: 70px !important;
+    display: inline-block;
+}
+
+.homeslider button.slick-next.slick-arrow { right:0 !important;}
+.homeslider button.slick-prev.slick-arrow { left:0 !important;}
+.footer-link li a:hover {  margin-left: 10px;}
+
+/***** get part css ****/
+.get-contectpart {background:#a42127; width:100%; }
+.left-getpart h1, .left-getpart p, .left-getpart strong {  color: #fff;}
+.right-boxpartget {  width: 100%;  text-align: center;  margin-bottom: 20px;}
+.img-getpart {  width: 100%; display: inline-block; margin-bottom: 15px;}
+.getbox-ctdis h5 { color: #fff; font-size: 18px;}
+.getbox-ctdis p { color: #fff; font-size: 14px; font-weight:500; line-height: 20px;}
+.left-getpart h1::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    border-bottom: 2px solid #FFF;
+    width: 80px;
+}
+.left-getpart h1 {
+	margin-bottom:40px;
+}
+
+.doc_specify h4 {
+    font-size: 16px;
+}
+.moon-cionimg img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20px;
+}
+.moon-cionimg {
+    position: relative;
+    padding-left: 35px;
+}
+.appoiment-form-part input[type="text"] {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btdetialpart:last-child {
+    border-bottom: 0;
+}
+.token1.green_bg {
+	background-color:#78d022;
+}
+.hospital_fee_box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    clear: both;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.doc-timingslot ul li {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.doc-timingslot ul li span {
+    display: block;
+    font-weight: 600;
+}
+.calender_icon_main.location {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 25px;
+}
+.doc_list p span {
+    font-weight: 200;
+    display: block;
+    font-size: 13px;
+    color: #333;
+}
+.doc_list p {
+    line-height: 20px;
+    font-weight: 500;
+}
+.pace-part p {
+    line-height: 18px;
+    margin-bottom:4px;
+    font-size: 13px;
+}
+.pace-part h4 {
+    font-size: 16px;
+}
+
+.appointment_details .doc-listboxes {
+    width: 100%;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 15px;
+}
+.appointment_details .pace-part p {
+    line-height: 18px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+.green-btn {
+	background-color:#53c826 !important;
+}
+.gray-btn {
+	background-color:#333 !important;
+}
+form.appoiment-form-part.pb-app {
+    margin-top: -10px;
+}
+.appoiment-form-part.pb-app .form-group {
+	margin-bottom:0 !important;
+}
+.appoiment-form-part.pb-app input[type="text"] {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+.doc-boxespart-book {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+
+.ads_box img {
+	width:100%;
+	padding:5px;
+	border:1px solid #eee;
+}
+.ads_box {
+	margin-bottom:15px;
+}
+
+.doctoe_listing_one .button_bottom_c a {
+    border: 0;
+    padding: 2px 20px;
+    margin-right: 10px;
+    width: auto;
+    margin: auto;
+}
+.image_doc img {
+    border-radius: 50%;
+}
+.red-star {
+    color: #a42127;
+}
+span.ratingpart.red-star {
+    float: right;
+}
+.add-text {
+	font-size:12px !important;
+}
+.strong {
+	font-weight:500;
+}
+.hos-discription p {
+    font-size: 12px;
+}
+
+.cut-price {
+    padding-right: 10px;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.next_appointment {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.record_list li {
+    display: block;
+    line-height: 40px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+}
+ul.record_list li a {
+    color: #666;
+    font-weight: 300;
+    display: block;
+    padding: 0 15px;
+}
+ul.record_list li a:hover {
+    color:#a42127;
+	background-color:#fff0f0;
+}
+.record_part .dropdown-menu > li > a {
+    line-height: 30px;
+    color: #666 !important;
+    width: 100%;
+    font-size: 13px;
+	padding: 0;
+}
+.record_part .dropdown-menu {
+    padding: 10px 0;
+    right: 0 !important;
+    left: auto !important;
+}
+.add-record li a i {
+    font-size: 20px;
+    margin-left: 15px;
+}
+.add-record .dropdown-menu li a i {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 5px;
+    width: 20px;
+}
+.add-record .dropdown-menu li a:hover {
+	color:#e40e0e !important;
+}
+
+.pace-part.patient-prodetials {
+    border: 1px solid #ddd;
+}
+
+.mt-nill {
+	margin-top:-10px !important;
+}
+.pace-left.hos-clinics .user_profile_img img {
+    width: 100%;
+}
+.orange-btn {
+	background-color:#ffc1c1 !important;
+	color:#a42127 !important;
+}
+
+.token_allover_book .token h4 {
+    line-height: 65px;
+}
+.token_allover_book .token-timingdoc {
+    width: 100%;
+}
+
+/* new css */
+
+.btn-bs-file {
+    position: relative;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+.file_row {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 10px 0px;
+}
+.file_row label {
+    font-size: 17px;
+    line-height: 30px;
+}
+.file_row .edit-icon {
+    position: relative;
+    top: 0;
+    right: 2px;
+}
+
+/* manoj 2018/10/10 */
+.model_opacity {
+z-index: 99999999999999;
+opacity: 1;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+z-index: 9999999999999999 !important;
+}
+
+div#week-day-shifts {
+    width: 100%;
+    display: inline-block;
+}
+.mainaccoridan .panel-body {
+    border: 0;
+}
+.mainaccoridan .panel-heading {margin-bottom:0px; padding-bottom:15px;}
+.sift_days ul li {
+    width: auto;
+    float: left;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+span.sift_srno {
+    margin-right: 6px;
+    font-weight: 500;
+    color: #474747;
+}
+span.sift_starttime {
+    margin-right: 10px;
+}
+
+.bootstrap-timepicker-widget table td input {
+    width: 60px; font-size:13px;
+}
+.bootstrap-timepicker-widget table td a {padding:0px;}
+span.appointment-date-span span  {
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.time_input {
+    width: 17%;
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+}
+span.appointment-date-span  i {color:#fff;}
+span.select2-dropdown.select2-dropdown--below {
+    z-index: 9999999999;
+}
+.select2-results__option {width:100%;}
+
+
+
+/* Added by anand  */
+
+.signup-part .login-sumbit {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    background: #a42127;
+    margin: 25px 0px;
+}
+.signup-part [type=submit]:hover {
+    background-color: #000000;
+    color: #FFF;
+}
+
+.register-section .file.btn.btn-lg input {
+    padding: 0;
+    display: inline-block;
+}
+
+.register-section .file.btn.btn-lg {
+    border-radius: 0px !important;
+}
+
+.signup-part select {
+    height: auto !important;
+}

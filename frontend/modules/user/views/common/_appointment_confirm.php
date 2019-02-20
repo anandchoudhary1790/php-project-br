@@ -1,0 +1,1 @@
+<input type="button" class="confirm-theme" data-status="<?php echo $booking_type?>" data-doctorid="<?php echo $doctor_id?>" data-appointmentid ="<?php echo $appointment_id?>" id="appointment_confirm_payment" value="CONFIRMED">

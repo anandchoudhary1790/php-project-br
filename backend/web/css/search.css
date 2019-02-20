@@ -1,0 +1,44 @@
+.searchlist .form-group{
+    float: left;
+    margin-right: 5px !important;
+    margin-left:0px!important;
+    width: 20%;
+    border: 2px solid #3c8dbc;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.6);
+}
+.order-search .form-group{width:24%;}
+.field-subscriptionssearch-smultiple,
+.field-ordersearch-omultiple,.field-shipmentsearch-smultiple,
+.field-transactionsearch-smultiple,.field-campaignsearch-smultiple{
+    width:25%;
+}
+.field-feedbacksearch-smultiple{
+    width:35%;
+}
+.feedback-search .bsubmit{width:20%;}
+.clear{clear: both;}
+.form-group .col-lg-8{padding:0px; float:right; }
+button.reset{display:none;}
+.searchlist .bsubmit{width:10%;  border:none; line-height:2.5;}
+.col-lg-4{padding:0px!important;}
+.col-lg-4 label{
+    width:100%;
+    font-size:16px;
+    text-align: center!important;
+    padding: 6px 0px!important;
+    background: none repeat scroll 0 0 #3c8dbc;
+    color: #fff;
+    font-weight: normal;
+}
+select.form-control {
+    background: url("../images/black-dropdown-arrow.png") no-repeat right center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+}
+
+.labelship label{vertical-align: sub; font-size:16px;}
+#filterlabel{border: 0px solid!important;display: block;clear:left;}
+.field-transactionsearch-starts_at,.field-campaignsearch-starts_at,
+.field-shipmentsearch-starts_at{clear:left;}

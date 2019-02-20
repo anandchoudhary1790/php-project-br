@@ -1,0 +1,2366 @@
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/bootstrap.min.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '50239'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282477.027
+    'REQUEST_TIME' => 1549282477
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/hover.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/hover.css.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '50240'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/hover.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/hover.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282477.041
+    'REQUEST_TIME' => 1549282477
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.mi...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '50244'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282477.364
+    'REQUEST_TIME' => 1549282477
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.bundle.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.bu...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '50245'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282477.367
+    'REQUEST_TIME' => 1549282477
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/swiper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/swiper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:44:37 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '50246'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282477.372
+    'REQUEST_TIME' => 1549282477
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:44 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/bootstrap.min.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:44 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34540'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282664.783
+    'REQUEST_TIME' => 1549282664
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:44 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/hover.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/hover.css.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:44 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34562'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/hover.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/hover.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282664.815
+    'REQUEST_TIME' => 1549282664
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.mi...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34565'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282665.202
+    'REQUEST_TIME' => 1549282665
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.bundle.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.bu...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34566'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282665.205
+    'REQUEST_TIME' => 1549282665
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/swiper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/swiper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:45 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34567'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282665.206
+    'REQUEST_TIME' => 1549282665
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/hover.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/hover.css.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34652'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/hover.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/hover.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282672.441
+    'REQUEST_TIME' => 1549282672
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/bootstrap.min.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34651'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282672.438
+    'REQUEST_TIME' => 1549282672
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/swiper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/swiper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34658'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282672.832
+    'REQUEST_TIME' => 1549282672
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:53 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.bundle.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.bu...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34657'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282672.829
+    'REQUEST_TIME' => 1549282672
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:53 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.mi...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:52 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34656'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282672.826
+    'REQUEST_TIME' => 1549282672
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.mi...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:55 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34563'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282675.934
+    'REQUEST_TIME' => 1549282675
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.bundle.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.bu...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:55 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34691'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282675.946
+    'REQUEST_TIME' => 1549282675
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/swiper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/swiper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:55 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34692'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282675.948
+    'REQUEST_TIME' => 1549282675
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/hover.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/hover.css.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34694'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/hover.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/hover.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282676.079
+    'REQUEST_TIME' => 1549282676
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/bootstrap.min.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:47:56 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34693'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282676.079
+    'REQUEST_TIME' => 1549282676
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/bootstrap.min.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34783'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.126
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "css/hover.css.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/hover.css.m...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34782'
+    'REDIRECT_URL' => '/g/sites/drspanel/css/hover.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/css/hover.css.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.127
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.mi...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34777'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.474
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/swiper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/swiper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34788'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/swiper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.489
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/popper.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34781'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.47
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "js/bootstrap.bundle.min.js.map".' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/bootstrap.bu...', Array)
+#1 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/html/g/sites/drspanel/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/g/sites/drspanel/frontend/web/index.php(22): yii\base\Application->run()
+#2 {main}
+2019-02-04 17:48:04 [49.249.249.230][4][di6irluugfuptucjv3qg0lvs76][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_backendUser' => '7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR\",2592000]\";}'
+    'search_filter' => '{\"result\":\"success\",\"fullpath\":0,\"filter\":\"Doctor\",\"slug\":\"\",\"path\":\"\\/search?results_type=doctor&q=\"}'
+    'PHPFRONTSESSID' => 'di6irluugfuptucjv3qg0lvs76'
+    '_frontendUser' => '2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[4,\"8FLcM65n-uBCgG1dyy1iybnXbMzdTuZI\",2592000]\";}'
+    '_frontendCSRF' => 'e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '205.147.102.6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=7ac9de352d7f4d132a34ddf55fecb37af290792fea3bf9728cf080fc8d638fdfa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22gHaqzQu7NEMBzgLkXvYg5OjdF1PlrpTR%22%2C2592000%5D%22%3B%7D; search_filter=%7B%22result%22%3A%22success%22%2C%22fullpath%22%3A0%2C%22filter%22%3A%22Doctor%22%2C%22slug%22%3A%22%22%2C%22path%22%3A%22%5C%2Fsearch%3Fresults_type%3Ddoctor%26q%3D%22%7D; PHPFRONTSESSID=di6irluugfuptucjv3qg0lvs76; _frontendUser=2198ef9106a844fcb71ec06645147cce5ae1cc2275c23a1cd1c7110cc5142c7fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%228FLcM65n-uBCgG1dyy1iybnXbMzdTuZI%22%2C2592000%5D%22%3B%7D; _frontendCSRF=e6bc430144466b54a73bbedb721dfcec8f74dd25ffb96fa8c2bdb4639138c02aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D7i2fqcyEMinBXPaTEk4ULhRf5eDn5Zy%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at 205.147.102.6 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => '205.147.102.6'
+    'SERVER_ADDR' => '205.147.102.6'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '49.249.249.230'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/g/sites/drspanel/frontend/web/index.php'
+    'REMOTE_PORT' => '34787'
+    'REDIRECT_URL' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/g/sites/drspanel/js/bootstrap.bundle.min.js.map'
+    'SCRIPT_NAME' => '/g/sites/drspanel/frontend/web/index.php'
+    'PHP_SELF' => '/g/sites/drspanel/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1549282684.485
+    'REQUEST_TIME' => 1549282684
+    'YII_DEBUG' => 'true'
+    'YII_ENV' => 'dev'
+    'LINK_ASSETS' => 'true'
+    'DB_DSN' => 'mysql:host=205.147.102.6;port=3306;dbname=drspanel'
+    'DB_USERNAME' => 'dbuser'
+    'DB_PASSWORD' => 'YNitiN@123#!Mabc'
+    'DB_TABLE_PREFIX' => ''
+    'TEST_DB_DSN' => 'mysql:host=localhost;port=3306;dbname=drspanel'
+    'TEST_DB_USERNAME' => 'root'
+    'TEST_DB_PASSWORD' => '1234'
+    'API_HOST_INFO' => 'http://205.147.102.6/g/sites/drspanel'
+    'FRONTEND_URL' => 'http://205.147.102.6/g/sites/drspanel/'
+    'BACKEND_URL' => 'http://205.147.102.6/g/sites/drspanel/admin'
+    'STORAGE_URL' => 'http://205.147.102.6/g/sites/drspanel/storage/web'
+    'SMTP_HOST' => 'localhost'
+    'SMTP_PORT' => '25'
+    'FRONTEND_COOKIE_VALIDATION_KEY' => '28CcDRbDBgKgS25MuPt4nUg4q5jP2aaTX54fghjghhsdsadsadzsadsad'
+    'BACKEND_COOKIE_VALIDATION_KEY' => 'RYky-JLOz3QAFehHsGs9zL7cuyyoSJ6Vgslddsadsadasdsadsadzsadsadsad'
+    'ADMIN_EMAIL' => 'developer@brsoftech.com'
+    'ROBOT_EMAIL' => 'developer@brsoftech.com'
+    'GITHUB_CLIENT_ID' => 'your-client-id'
+    'GITHUB_CLIENT_SECRET' => 'your-client-secret'
+    'GLIDE_SIGN_KEY' => '_DxmFAt4AYvEg-w1xXJSnBtbnnoI5IpI'
+    'GLIDE_MAX_IMAGE_SIZE' => '4000000'
+    'LOG_FILE' => 'dev'
+    'GCM_SERVER_KEY' => 'AAAA8KJhuLE:APA91bGqHgwpPcDmcTPqAckiwHHrK2qJm5SQe0YKHKmLRk1Zo6FhEekLPDVJn33viT0DmdJ1j7Iascm2JHKig0FIC-vYA-EBbPL1REkaUaQ6QnSbcHWNOHzYRvKkbceJVAjweR0XocYQ3uIRNL6mxb5e7J_P6Gs_7w'
+]
